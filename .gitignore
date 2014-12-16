@@ -52,6 +52,7 @@ docs/_build/
 
 # PyBuilder
 target/
+<<<<<<< HEAD
 
 # CTags files
 .tags
@@ -59,3 +60,5 @@ target/
 
 # callsign service init files
 .hamsalad*
+=======
+>>>>>>> 63aa603fc989b46b1892ed380d46ab9a6176fc87
