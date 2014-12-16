@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <name>KmlCalls</name>
+        <open>1</open>
+        <Folder id="feat_2">
+            <Style id="stylesel_14">
+                <LineStyle id="substyle_14">
+                    <colorMode>normal</colorMode>
+                    <width>1</width>
+                </LineStyle>
+            </Style>
+            <Style id="stylesel_3">
+                <IconStyle id="substyle_3">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="link_3">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                    </Icon>
+                </IconStyle>
+                <BalloonStyle>
+                    <bgColor>ff90ee90</bgColor>
+                    <text>
+<![CDATA[
+<b><font size="6">$[Call]</font></b>
+<div style="height:150px;overflow:auto">
+<table border="0">
+<tr><td><b><font size="4">$[Fname] $[Name]</font></b></td></tr>
+<tr><td>Distance: <i>$[Distance]</i></td></tr>
+<tr><td>Bearing: <i>$[Bearing]</i></td></tr>
+<tr><td>Band: <i>$[Band]</i></td></tr>
+<tr><td>Mode: <i>$[Mode]</i></td></tr>
+<tr><td>$[Col1]: <i>$[Col1Val] -- $[Col2]: <i>$[Col2Val]</i></td></tr>
+<tr><td><a href="$[Url]">QRZ page</a></td></tr>
+</table>
+</div>]]>                    </text>
+                    <displayMode>default</displayMode>
+                </BalloonStyle>
+            </Style>
+            <name>40M</name>
+            <Placemark id="feat_13">
+                <name>VE3RSI</name>
+                <styleUrl>#stylesel_3</styleUrl>
+                <ExtendedData>
+                    <Data name="Call">
+                        <value>VE3RSI</value>
+                    </Data>
+                    <Data name="Fname">
+                        <value>Robert</value>
+                    </Data>
+                    <Data name="Name">
+                        <value>Sacerty</value>
+                    </Data>
+                    <Data name="Distance">
+                        <value>492 NM</value>
+                    </Data>
+                    <Data name="Bearing">
+                        <value>283</value>
+                    </Data>
+                    <Data name="Band">
+                        <value>40m</value>
+                    </Data>
+                    <Data name="Mode">
+                        <value>PSK31</value>
+                    </Data>
+                    <Data name="Url">
+                        <value>http://qrz.com/db/VE3RSI#t_detail</value>
+                    </Data>
+                    <Data name="Col1">
+                        <value>qsl_s</value>
+                    </Data>
+                    <Data name="Col2">
+                        <value>qslr</value>
+                    </Data>
+                    <Data name="Col1Val">
+                        <value>E</value>
+                    </Data>
+                    <Data name="Col2Val">
+                        <value>LE</value>
+                    </Data>
+                </ExtendedData>
+                <Point id="geom_5">
+                    <coordinates>-82.404399,42.954900,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_14">
+                <styleUrl>#stylesel_14</styleUrl>
+                <LineString id="geom_6">
+                    <coordinates>-82.404399,42.954900,100 -71.450798,41.662381,100</coordinates>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_3">
+            <Style id="stylesel_14">
+                <LineStyle id="substyle_14">
+                    <colorMode>normal</colorMode>
+                    <width>1</width>
+                </LineStyle>
+            </Style>
+            <Style id="stylesel_3">
+                <IconStyle id="substyle_3">
+                    <colorMode>normal</colorMode>
+                    <scale>1</scale>
+                    <heading>0</heading>
+                    <Icon id="link_3">
+                        <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-blank.png</href>
+                    </Icon>
+                </IconStyle>
+                <BalloonStyle>
+                    <bgColor>ff90ee90</bgColor>
+                    <text>
+<![CDATA[
+<b><font size="6">$[Call]</font></b>
+<div style="height:150px;overflow:auto">
+<table border="0">
+<tr><td><b><font size="4">$[Fname] $[Name]</font></b></td></tr>
+<tr><td>Distance: <i>$[Distance]</i></td></tr>
+<tr><td>Bearing: <i>$[Bearing]</i></td></tr>
+<tr><td>Band: <i>$[Band]</i></td></tr>
+<tr><td>Mode: <i>$[Mode]</i></td></tr>
+<tr><td>$[Col1]: <i>$[Col1Val] -- $[Col2]: <i>$[Col2Val]</i></td></tr>
+<tr><td><a href="$[Url]">QRZ page</a></td></tr>
+</table>
+</div>]]>                    </text>
+                    <displayMode>default</displayMode>
+                </BalloonStyle>
+            </Style>
+            <name>20M</name>
+            <Placemark id="feat_9">
+                <name>DB7HH</name>
+                <styleUrl>#stylesel_3</styleUrl>
+                <ExtendedData>
+                    <Data name="Call">
+                        <value>DB7HH</value>
+                    </Data>
+                    <Data name="Fname">
+                        <value>Hans - Joachim</value>
+                    </Data>
+                    <Data name="Name">
+                        <value>Hohmann</value>
+                    </Data>
+                    <Data name="Distance">
+                        <value>3233 NM</value>
+                    </Data>
+                    <Data name="Bearing">
+                        <value>49</value>
+                    </Data>
+                    <Data name="Band">
+                        <value>20m</value>
+                    </Data>
+                    <Data name="Mode">
+                        <value>PSK63</value>
+                    </Data>
+                    <Data name="Url">
+                        <value>http://qrz.com/db/DB7HH#t_detail</value>
+                    </Data>
+                    <Data name="Col1">
+                        <value>qsl_s</value>
+                    </Data>
+                    <Data name="Col2">
+                        <value>qslr</value>
+                    </Data>
+                    <Data name="Col1Val">
+                        <value>E</value>
+                    </Data>
+                    <Data name="Col2Val">
+                        <value>LE</value>
+                    </Data>
+                </ExtendedData>
+                <Point id="geom_1">
+                    <coordinates>10.208333,51.895833,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_10">
+                <styleUrl>#stylesel_14</styleUrl>
+                <LineString id="geom_2">
+                    <coordinates>10.208333,51.895833,100 -71.450798,41.662381,100</coordinates>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                </LineString>
+            </Placemark>
+            <Placemark id="feat_11">
+                <name>OK2CQR</name>
+                <styleUrl>#stylesel_3</styleUrl>
+                <ExtendedData>
+                    <Data name="Call">
+                        <value>OK2CQR</value>
+                    </Data>
+                    <Data name="Fname">
+                        <value>PETR</value>
+                    </Data>
+                    <Data name="Name">
+                        <value>HLOZEK</value>
+                    </Data>
+                    <Data name="Distance">
+                        <value>3422 NM</value>
+                    </Data>
+                    <Data name="Bearing">
+                        <value>50</value>
+                    </Data>
+                    <Data name="Band">
+                        <value>20m</value>
+                    </Data>
+                    <Data name="Mode">
+                        <value>PSK63</value>
+                    </Data>
+                    <Data name="Url">
+                        <value>http://qrz.com/db/OK2CQR#t_detail</value>
+                    </Data>
+                    <Data name="Col1">
+                        <value>qsl_s</value>
+                    </Data>
+                    <Data name="Col2">
+                        <value>qslr</value>
+                    </Data>
+                    <Data name="Col1Val">
+                        <value>E</value>
+                    </Data>
+                    <Data name="Col2Val">
+                        <value>LE</value>
+                    </Data>
+                </ExtendedData>
+                <Point id="geom_3">
+                    <coordinates>14.515042,50.253283,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_12">
+                <styleUrl>#stylesel_14</styleUrl>
+                <LineString id="geom_4">
+                    <coordinates>14.515042,50.253283,100 -71.450798,41.662381,100</coordinates>
+                    <extrude>1</extrude>
+                    <tessellate>1</tessellate>
+                </LineString>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_4">
+            <name>17M</name>
+        </Folder>
+        <Folder id="feat_5">
+            <name>15M</name>
+        </Folder>
+        <Folder id="feat_6">
+            <name>12M</name>
+        </Folder>
+        <Folder id="feat_7">
+            <name>10M</name>
+        </Folder>
+        <Placemark id="feat_8">
+            <name>KB1ZZV</name>
+            <styleUrl>#stylesel_0</styleUrl>
+            <Point id="geom_0">
+                <coordinates>-71.450798,41.662381,0.0</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>

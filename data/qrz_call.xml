@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<QRZDatabase version="1.33" xmlns="http://xmldata.qrz.com">
+<Callsign>
+<call>KB1ZZV</call>
+<dxcc>291</dxcc>
+<fname>Thomas S</fname>
+<name>Cloud</name>
+<addr1>15 Courthouse Ln</addr1>
+<addr2>East Greenwich</addr2>
+<state>RI</state>
+<zip>02818</zip>
+<country>United States</country>
+<lat>41.662381</lat>
+<lon>-71.450798</lon>
+<grid>FN41gp</grid>
+<county>Kent</county>
+<ccode>271</ccode>
+<fips>44003</fips>
+<land>United States</land>
+<efdate>2013-08-27</efdate>
+<expdate>2023-05-28</expdate>
+<class>G</class>
+<codes>HAI</codes>
+<qslmgr>LOTW, EQSL, BURO OR DIRECT</qslmgr>
+<email>kb1zzv@arrl.net</email>
+<u_views>3705</u_views>
+<bio>1367</bio>
+<biodate>2013-10-17 03:53:54</biodate>
+<image>http://files.qrz.com/v/kb1zzv/kb1zzv_2.JPG</image>
+<imageinfo>383:575:46929</imageinfo>
+<moddate>2013-09-26 01:33:20</moddate>
+<MSA>6480</MSA>
+<AreaCode>401</AreaCode>
+<TimeZone>Eastern</TimeZone>
+<GMTOffset>-5</GMTOffset>
+<DST>Y</DST>
+<eqsl>1</eqsl>
+<mqsl>1</mqsl>
+<cqzone>5</cqzone>
+<ituzone>8</ituzone>
+<lotw>1</lotw>
+<user>KB1ZZV</user>
+<geoloc>user</geoloc>
+</Callsign>
+<Session>
+<Key>b13c601d0f3a8febec7980e1d28626cc</Key>
+<Count>22129</Count>
+<SubExp>Wed Nov 26 00:00:00 2014</SubExp>
+<GMTime>Fri Oct  3 21:19:52 2014</GMTime>
+<Remark>cpu: 0.036s</Remark>
+</Session>
+</QRZDatabase>

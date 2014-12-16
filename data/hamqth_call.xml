@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<HamQTH version="2.0" xmlns="http://www.hamqth.com">
+<search>
+    <callsign>kb1zzv</callsign>
+    <nick>Thomas</nick>
+    <qth>East Greenwich</qth>
+    <country>United States</country>
+    <adif>291</adif>
+    <itu>8</itu>
+    <cq>5</cq>
+    <grid>FN41GP</grid>
+    <adr_name>Thomas S Cloud</adr_name>
+    <adr_street1>15 Courthouse Ln</adr_street1>
+    <adr_city>East Greenwich</adr_city>
+    <adr_zip>02818</adr_zip>
+    <adr_country>United States</adr_country>
+    <adr_adif>291</adr_adif>
+    <us_state>RI</us_state>
+    <us_county>Kent</us_county>
+    <lotw>Y</lotw>
+    <qsl>Y</qsl>
+    <eqsl>Y</eqsl>
+    <lic_year>2013</lic_year>
+    <latitude>41.6623572</latitude>
+    <longitude>-71.45072770000002</longitude>
+    <continent>NA</continent>
+    <utc_offset>5</utc_offset>
+    <lookups>211</lookups>
+    <registered>Y</registered>
+</search>
+</HamQTH>
+
+

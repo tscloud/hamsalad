@@ -1,0 +1,918 @@
+Encoding set to iso-8859-1!
+This is hamdata.py v0.1 from KB1ZZV.
+Thanks to Martin Ewing, AA6E & Fabian Kurz, DJ1YFK
+No calls requested from file.
+in Cqrlog
+in KmlLog
+2E0BPP coords from...QRZ1 latlon
+QRZ: IO91vl(dxcc) - CQR: IO91TG
+2E0GBK coords from...CQR2 grid
+QRZ: IO91rs(user) - CQR: IO91WO
+2E0JCQ coords from...CQR2 grid
+2E0VDS coords from...QRZ1 latlon
+2E0VDS coords from...QRZ1 latlon
+2M0ONW coords from...QRZ1 latlon
+2M0WEV coords from...QRZ1 latlon
+2M0WEV coords from...QRZ1 latlon
+2M0YIO coords from...QRZ1 latlon
+4Z5OY coords from...QRZ1 latlon
+QRZ: EK92dm(user) - CQR: EK92DN
+5J0R coords from...QRZ2 latlon
+QRZ: JO70am(state) - CQR: KI88JS
+5Z4EE coords from...CQR2 grid
+7X3FG coords from...QRZ1 latlon
+9A1R coords from...QRZ1 latlon
+9A9K coords from...QRZ1 latlon
+9A9TT coords from...QRZ1 latlon
+QRZ: JM75fv(dxcc) - CQR: JM75GU
+9H1ET coords from...CQR2 grid
+QRZ: LL85at(user) - CQR: LL75QI
+A61DD coords from...QRZ2 latlon
+AA0AW coords from...QRZ1 latlon
+AA5AT coords from...QRZ1 latlon
+AA7IX coords from...QRZ1 latlon
+AB4UG coords from...QRZ1 latlon
+AC4R coords from...QRZ1 latlon
+AD0CZ coords from...QRZ1 latlon
+AF6XW coords from...QRZ1 latlon
+AG4HG coords from...QRZ1 latlon
+AI8F coords from...QRZ1 latlon
+AM03CV coords from...QRZ1 latlon
+AN05DZC coords from...CQR3 grid
+QRZ: FL15ha(dxcc) - CQR: FL15IB
+C6ADL coords from...CQR2 grid
+QRZ: FL15ha(user) - CQR: FL15HB
+C6AVD coords from...QRZ2 latlon
+CE3WR coords from...QRZ1 latlon
+CM2AME coords from...QRZ1 latlon
+CM2YQ coords from...QRZ3 latlon
+CM3DSE coords from...QRZ1 latlon
+QRZ: EL92et(dxcc) - CQR: FL01LT
+CO0SM coords from...CQR2 grid
+QRZ: EL83ww(user) - CQR: EL83UA
+CO2CW coords from...QRZ2 latlon
+QRZ: EL83td(grid) - CQR: EL83TC
+CO2GL coords from...CQR2 grid
+QRZ: EL92et(dxcc) - CQR: EL83TC
+CO2PN coords from...CQR2 grid
+CO2VE coords from...QRZ1 latlon
+CO3CJ coords from...QRZ1 latlon
+QRZ: JA00aa(grid) - CQR: JN12LG
+CO4SM coords from...CQR2 grid
+QRZ: EL92et(dxcc) - CQR: EL93KA
+CO5FB coords from...CQR2 grid
+CO6HLP coords from...QRZ1 latlon
+CO6HLP coords from...QRZ1 latlon
+CO6HLP coords from...QRZ1 latlon
+QRZ: FL11aj(user) - CQR: FL11AI
+CO7WT coords from...QRZ2 latlon
+QRZ: FL20la(user) - CQR: FF46QO
+CO8LY coords from...QRZ2 latlon
+QRZ: FL20la(user) - CQR: FF46QO
+CO8LY coords from...QRZ2 latlon
+CO8WZ coords from...QRZ1 latlon
+QRZ: FH53xl(user) - CQR: FH53WM
+CP1FF coords from...QRZ2 latlon
+CR8ABC coords from...QRZ1 latlon
+CS7AED coords from...QRZ1 latlon
+CT1AGS coords from...QRZ1 latlon
+QRZ: IM58is(user) - CQR: IM58HT
+CT1CQK coords from...QRZ2 latlon
+CT1FAW coords from...QRZ1 latlon
+CT1FIU coords from...QRZ1 latlon
+CT1FIU coords from...QRZ1 latlon
+CT1FIU coords from...QRZ1 latlon
+CT2FPY/P coords from...QRZ1 latlon
+CT2IWW coords from...QRZ1 latlon
+CT4RC coords from...QRZ1 latlon
+CT5JZX/MM coords from...QRZ1 latlon
+CU2AP coords from...QRZ1 latlon
+QRZ: HM77ft(user) - CQR: HM58XL
+CU2CE coords from...QRZ2 latlon
+CU7AJ coords from...QRZ1 latlon
+QRZ: GF16wv(dxcc) - CQR: GF15GN
+CX1FU coords from...CQR2 grid
+QRZ: GF15wd(user) - CQR: GF15VC
+CX4ACH coords from...QRZ2 latlon
+QRZ: GF15wd(user) - CQR: GF15VC
+CX4ACH coords from...QRZ2 latlon
+QRZ: GF15wd(user) - CQR: GF15VC
+CX4ACH coords from...QRZ2 latlon
+QRZ: JH87sx(dxcc) - CQR: JI91OP
+D2QR coords from...CQR2 grid
+DB1ID coords from...QRZ1 latlon
+DB4RG coords from...QRZ1 latlon
+QRZ: JO51cv(user) - CQR: JO51BV
+DB7HH coords from...QRZ2 latlon
+DC1MRR coords from...QRZ1 latlon
+DD9QD coords from...QRZ1 latlon
+DF5WB coords from...QRZ1 latlon
+DF6ZM coords from...QRZ1 latlon
+QRZ: JO42wx(user) - CQR: JO43UA
+DG1DUG coords from...QRZ2 latlon
+making ctydat...
+DG5CQ coords from...CTY
+DG5MLA coords from...QRZ1 latlon
+QRZ: JO32oh(user) - CQR: JO42WQ
+DH0YAH coords from...CQR2 grid
+DH1AKG coords from...QRZ1 latlon
+DJ0JG coords from...QRZ1 latlon
+DK5II coords from...QRZ1 latlon
+DK6WH coords from...QRZ1 latlon
+DK7EH coords from...QRZ1 latlon
+DK7XH coords from...QRZ1 latlon
+DK9KW coords from...QRZ1 latlon
+DK9KW coords from...QRZ1 latlon
+DK9KW coords from...QRZ1 latlon
+DK9KW coords from...QRZ1 latlon
+DL0IR coords from...QRZ1 latlon
+QRZ: JN49ix(user) - CQR: JN49HX
+DL1FAM coords from...QRZ2 latlon
+DL1FCU coords from...QRZ1 latlon
+DL2OCE coords from...QRZ1 latlon
+DL2OCE coords from...QRZ1 latlon
+DL2QW coords from...QRZ1 latlon
+QRZ: JO42sm(user) - CQR: JO42SN
+DL3WK coords from...QRZ2 latlon
+DL5CJ coords from...QRZ1 latlon
+DL5ZA coords from...QRZ1 latlon
+DL5ZB coords from...QRZ1 latlon
+DL6NDW coords from...QRZ1 latlon
+DL6PU coords from...QRZ1 latlon
+DL7UDA coords from...QRZ1 latlon
+DL8WF coords from...QRZ1 latlon
+DM2CF coords from...QRZ1 latlon
+DM2CNE coords from...QRZ1 latlon
+DM4ZPJ coords from...QRZ1 latlon
+DM5BB coords from...QRZ1 latlon
+DO1EWT coords from...QRZ1 latlon
+DO3ME coords from...QRZ1 latlon
+DO4DSR coords from...QRZ1 latlon
+DO6KPU coords from...QRZ1 latlon
+DO7PD coords from...QRZ1 latlon
+QRZ: JN83sx(dxcc) - CQR: JN95DA
+E74DO coords from...CQR2 grid
+E77AW coords from...QRZ1 latlon
+EA1LN coords from...QRZ1 latlon
+EA1WY coords from...QRZ1 latlon
+QRZ: JN11ms(user) - CQR: JN11MT
+EA3AYQ coords from...QRZ2 latlon
+EA3EZD coords from...QRZ1 latlon
+QRZ: JN11dk(user) - CQR: JN11CK
+EA3TC coords from...QRZ2 latlon
+EA3UV coords from...QRZ1 latlon
+EA3UV coords from...QRZ1 latlon
+QRZ: IN80dj(user) - CQR: IN80DK
+EA4AOJ coords from...QRZ2 latlon
+EA4DS coords from...QRZ1 latlon
+EA5FIF coords from...QRZ1 latlon
+EA5GMM coords from...QRZ1 latlon
+QRZ: IN80dj(dxcc) - CQR: IM97OO
+EA5IBW coords from...CQR2 grid
+EA5XK coords from...QRZ3 latlon
+EA7AH coords from...QRZ1 latlon
+QRZ: IM77ln(user) - CQR: IM77KL
+EA7AQV coords from...QRZ2 latlon
+EA7IZZ coords from...QRZ1 latlon
+EA7KR coords from...QRZ1 latlon
+EA8AQV coords from...QRZ1 latlon
+EA8AQV coords from...QRZ1 latlon
+EA8ATE coords from...QRZ1 latlon
+EA8FO coords from...QRZ1 latlon
+EA8GP coords from...QRZ1 latlon
+EA8HZ coords from...QRZ1 latlon
+EA8HZ coords from...QRZ1 latlon
+EA8TL coords from...QRZ1 latlon
+QRZ: IM75iv(user) - CQR: IM85MH
+EA9BO coords from...CQR2 grid
+EB5DZC coords from...QRZ1 latlon
+EB5DZC coords from...QRZ1 latlon
+EB5DZC coords from...QRZ1 latlon
+EC1DJ coords from...CQR3 grid
+QRZ: IL38ex(user) - CQR: IL39EB
+EC8AXS coords from...QRZ2 latlon
+EG5HSJ coords from...QRZ1 latlon
+EH1CM coords from...QRZ1 latlon
+EI2HXB coords from...QRZ1 latlon
+QRZ: IO62kg(user) - CQR: IO62LH
+EI5EV coords from...QRZ2 latlon
+EI9GLB coords from...QRZ1 latlon
+ES1JA coords from...QRZ1 latlon
+ES3BR coords from...QRZ1 latlon
+ES3HZ coords from...QRZ1 latlon
+ES3RD coords from...QRZ1 latlon
+ES5EVO coords from...QRZ1 latlon
+QRZ: KO34vg(dxcc) - CQR: KO33SV
+EV1P coords from...CQR2 grid
+QRZ: KO33tw(user) - CQR: KO33SV
+EW1KP coords from...QRZ2 latlon
+QRZ: KO34ua(grid) - CQR: KO75CF
+EW2CC coords from...CQR2 grid
+EW2NN coords from...QRZ1 latlon
+EW6FW coords from...QRZ1 latlon
+EW6FW coords from...QRZ1 latlon
+QRZ: JN18eu(dxcc) - CQR: IN98HQ
+F1AKX coords from...CQR2 grid
+F1ILA coords from...QRZ1 latlon
+F1SYG coords from...CQR3 grid
+QRZ: JN18eu(dxcc) - CQR: JO10GK
+F2YT coords from...CQR2 grid
+F4BVO coords from...QRZ1 latlon
+F4EUG coords from...QRZ1 latlon
+F4FNL coords from...QRZ1 latlon
+F4FNL coords from...QRZ1 latlon
+F4GFP coords from...QRZ1 latlon
+F4GHG coords from...QRZ1 latlon
+F4HFX coords from...QRZ1 latlon
+F4HIR coords from...QRZ1 latlon
+QRZ: JO10pa(user) - CQR: JN26CP
+F5BWS coords from...CQR2 grid
+QRZ: JO10pa(user) - CQR: JN26CP
+F5BWS coords from...CQR2 grid
+F5NMK coords from...QRZ1 latlon
+F5PEZ coords from...QRZ1 latlon
+F5RRO coords from...CQR3 grid
+F6ARS coords from...QRZ1 latlon
+F6FUJ coords from...QRZ1 latlon
+F6IJT coords from...QRZ1 latlon
+FG1JS coords from...QRZ1 latlon
+FY4PR coords from...QRZ1 latlon
+QRZ: IO93ic(user) - CQR: IO93KH
+G0JEI coords from...QRZ2 latlon
+QRZ: IO90iu(user) - CQR: IO92JI
+G0RUD coords from...QRZ2 latlon
+QRZ: IO91vl(dxcc) - CQR: JO02BG
+G100RSGB coords from...CQR2 grid
+QRZ: IO92vo(user) - CQR: IO92VN
+G3PQB coords from...QRZ2 latlon
+G4TGK coords from...QRZ1 latlon
+G7BTP coords from...QRZ1 latlon
+G8DX coords from...QRZ1 latlon
+G8ZSG coords from...CTY
+GI4SZW coords from...QRZ1 latlon
+GI4SZW coords from...QRZ1 latlon
+GI7AXB coords from...QRZ1 latlon
+QRZ: IO85hr(dxcc) - CQR: IO76VL
+GM0SDV coords from...CQR2 grid
+QRZ: IO77vo(geocode) - CQR: GN56XR
+GM0UDL/MM coords from...CQR2 grid
+HA1ZW coords from...QRZ1 latlon
+QRZ: JN97mk(user) - CQR: JN97NK
+HA5BSC coords from...QRZ2 latlon
+HA5DSC coords from...QRZ1 latlon
+HA6NL coords from...QRZ1 latlon
+HB0WR coords from...QRZ1 latlon
+QRZ: JN36qw(dxcc) - CQR: JN37TN
+HB9EBV coords from...CQR2 grid
+QRZ: JN47lg(user) - CQR: JN47FJ
+HB9ERU coords from...QRZ2 latlon
+QRZ: JN46ke(user) - CQR: JN46KD
+HB9FAX coords from...QRZ2 latlon
+QRZ: JN46ke(user) - CQR: JN46KD
+HB9FAX coords from...QRZ2 latlon
+HB9JNM coords from...QRZ1 latlon
+HC1AJQ coords from...QRZ1 latlon
+HG1RM coords from...QRZ1 latlon
+QRZ: FK58cl(user) - CQR: FK58BM
+HI8CSS coords from...QRZ2 latlon
+QRZ: FK48xk(user) - CQR: FK58AL
+HI8MU coords from...QRZ2 latlon
+QRZ: FK48xk(user) - CQR: FK58AL
+HI8MU coords from...QRZ2 latlon
+QRZ: FK48xk(user) - CQR: FK58AL
+HI8MU coords from...QRZ2 latlon
+HK2PMR coords from...QRZ1 latlon
+QRZ: FJ24xr(user) - CQR: FJ24XD
+HK3VHZ coords from...QRZ2 latlon
+QRZ: FJ08bn(user) - CQR: FJ09HF
+HO100CANAL coords from...CQR2 grid
+QRZ: FJ08bn(user) - CQR: EM60XH
+HP1AVS coords from...QRZ2 latlon
+QRZ: FJ09fb(user) - CQR: FJ08FX
+HP1CDZ coords from...QRZ2 latlon
+HP1CPE coords from...QRZ1 latlon
+HP1FWH coords from...QRZ1 latlon
+HP2SM coords from...QRZ1 latlon
+QRZ: EK64im(dxcc) - CQR: EK64JC
+HR1AAB coords from...CQR2 grid
+QRZ: JN44jk(user) - CQR: JN44LJ
+I1FLC coords from...QRZ2 latlon
+QRZ: JN44cv(geocode) - CQR: JN44ES
+I1YTO coords from...CQR2 grid
+QRZ: JN62ks(dxcc) - CQR: JN54KS
+I4IOR coords from...CQR2 grid
+I8QJU coords from...QRZ1 latlon
+QRZ: JN62ks(dxcc) - CQR: JN55SN
+IK3VVC coords from...CQR2 grid
+IK4IDF coords from...QRZ1 latlon
+IK5FKB coords from...QRZ1 latlon
+IK5FKB coords from...QRZ1 latlon
+IK5FKB coords from...QRZ1 latlon
+IK5FKF coords from...QRZ1 latlon
+IK6BGJ coords from...QRZ1 latlon
+IK6CVI coords from...QRZ1 latlon
+IK8YSS coords from...QRZ1 latlon
+IM0FFL coords from...QRZ1 latlon
+IS0DSW coords from...QRZ1 latlon
+IS0IGV coords from...QRZ1 latlon
+QRZ: JM49lg(grid) - CQR: JM49LH
+IS0YHV coords from...CQR2 grid
+IT9CCB coords from...QRZ1 latlon
+IT9CCB coords from...QRZ1 latlon
+IT9COR coords from...QRZ1 latlon
+IT9NOV coords from...QRZ1 latlon
+IU4AOS coords from...QRZ1 latlon
+IU8ALH coords from...QRZ1 latlon
+QRZ: JN62ks(dxcc) - CQR: JN66LB
+IV3JER coords from...CQR2 grid
+IV3VOU coords from...QRZ1 latlon
+IW1FRD coords from...QRZ1 latlon
+IW1FZR coords from...QRZ1 latlon
+IW2CXB coords from...QRZ1 latlon
+IW5BAX coords from...QRZ1 latlon
+IW5BAX coords from...QRZ1 latlon
+IW9ANR coords from...QRZ1 latlon
+IZ0VRD coords from...QRZ1 latlon
+QRZ: JN62ks(dxcc) - CQR: JN61HW
+IZ0VSA coords from...CQR2 grid
+IZ1XBB coords from...QRZ1 latlon
+QRZ: JN45rm(user) - CQR: JN45RL
+IZ2EWN coords from...CQR2 grid
+IZ2KLV coords from...QRZ1 latlon
+IZ3GNL coords from...CTY
+QRZ: JN64gc(user) - CQR: JN64GB
+IZ4EFV coords from...QRZ2 latlon
+QRZ: JN70bu(user) - CQR: JN70BT
+IZ8GGF coords from...QRZ2 latlon
+IZ8IZK coords from...QRZ1 latlon
+IZ8JFL coords from...QRZ1 latlon
+IZ8LMA coords from...QRZ1 latlon
+J42OSE coords from...QRZ1 latlon
+JR1EMO coords from...QRZ1 latlon
+QRZ: EM48rn(geocode) - CQR: EM48UO
+K0DO/W0LDO coords from...CQR2 grid
+QRZ: DM78tt(user) - CQR: DM78UX
+K0EFD coords from...QRZ2 latlon
+K0RJV coords from...QRZ1 latlon
+QRZ: DM08dv(user) - CQR: DM08DU
+K1SCN coords from...CQR2 grid
+K2L coords from...QRZ1 latlon
+QRZ: EN90xi(user) - CQR: FN00AK
+K3BAK coords from...QRZ2 latlon
+K3GY coords from...QRZ1 latlon
+K4ERO coords from...QRZ1 latlon
+K4FBP coords from...QRZ1 latlon
+QRZ: FM25ac(user) - CQR: FM25FG
+K4L coords from...CQR2 grid
+K4MWE coords from...QRZ1 latlon
+K4MWE coords from...QRZ1 latlon
+K4SOL coords from...QRZ1 latlon
+QRZ: EM70ce(user) - CQR: EM70ED
+K4TFT coords from...QRZ2 latlon
+K5DCZ coords from...QRZ1 latlon
+K5TLJ coords from...QRZ1 latlon
+K5YWL coords from...QRZ1 latlon
+K6VIB coords from...QRZ1 latlon
+K7UDG coords from...QRZ1 latlon
+QRZ: EN81hd(user) - CQR: EN81KH
+K8TBW coords from...QRZ2 latlon
+K9KJN coords from...QRZ1 latlon
+K9ZJ coords from...QRZ1 latlon
+KA4HOT coords from...QRZ1 latlon
+KA4OIL coords from...QRZ1 latlon
+KA9QKD coords from...QRZ1 latlon
+KB0QC coords from...QRZ1 latlon
+KB0VB coords from...QRZ1 latlon
+KB0VB coords from...QRZ1 latlon
+KB0WLF coords from...QRZ1 latlon
+KB1RXA coords from...QRZ1 latlon
+KB3TJR coords from...QRZ1 latlon
+KB5IAV coords from...QRZ1 latlon
+KB8BIP coords from...QRZ1 latlon
+QRZ: EM99eg(zip) - CQR: EM99FH
+KB8GYU coords from...CQR2 grid
+KB8STV coords from...QRZ1 latlon
+KC0MS coords from...QRZ1 latlon
+KC0VFV coords from...QRZ1 latlon
+QRZ: EN34tm(user) - CQR: EM47WX
+KC5SAM coords from...QRZ2 latlon
+KC9AEI coords from...QRZ1 latlon
+KC9DOA coords from...QRZ1 latlon
+KC9GLI coords from...QRZ1 latlon
+KD0UAG coords from...QRZ1 latlon
+KD6DWX coords from...QRZ1 latlon
+KD7EVN coords from...QRZ1 latlon
+KD8BPY coords from...QRZ1 latlon
+KD9AOK coords from...QRZ1 latlon
+QRZ: EN62bd(user) - CQR: EN62BE
+KD9BBB coords from...QRZ2 latlon
+KE1AF coords from...QRZ1 latlon
+KE5IRK coords from...QRZ1 latlon
+KE5OIZ coords from...QRZ1 latlon
+KF2GQ coords from...QRZ1 latlon
+QRZ: EM12iw(user) - CQR: EM12JW
+KF5HIQ coords from...CQR2 grid
+KF7F coords from...QRZ1 latlon
+KF9KV coords from...QRZ1 latlon
+KG4BCN coords from...QRZ1 latlon
+KG7BFP coords from...QRZ1 latlon
+KI4HEL coords from...QRZ1 latlon
+QRZ: EM10ca(zip) - CQR: EM10BA
+KI7VO coords from...CQR2 grid
+KJ4HB coords from...QRZ1 latlon
+KJ8O coords from...QRZ1 latlon
+KK4CPS coords from...QRZ1 latlon
+QRZ: EM73nq(zip) - CQR: EM73NO
+KK4PJ coords from...CQR2 grid
+KK4PWE coords from...QRZ1 latlon
+KK7JS coords from...QRZ1 latlon
+KK7XT coords from...QRZ1 latlon
+KO6IZ coords from...QRZ1 latlon
+QRZ: FK68sk(user) - CQR: FK68SL
+KP3PI coords from...QRZ2 latlon
+KP4BC coords from...QRZ1 latlon
+KP4BC coords from...QRZ1 latlon
+KP4FBM coords from...QRZ1 latlon
+KP4MP coords from...QRZ3 latlon
+QRZ: FK68nh(user) - CQR: FK68PL
+KP4RY coords from...QRZ2 latlon
+KQ7W coords from...QRZ1 latlon
+KR4VT coords from...QRZ1 latlon
+KS0B coords from...QRZ1 latlon
+QRZ: EM84aa(geocode) - CQR: EM83BX
+KS4GY coords from...CQR2 grid
+KT4DLB coords from...QRZ1 latlon
+KV4RH coords from...QRZ1 latlon
+KW4J coords from...QRZ1 latlon
+LA3LUA coords from...QRZ1 latlon
+LA6YJA coords from...QRZ1 latlon
+LU1BR coords from...QRZ1 latlon
+QRZ: FF57ob(user) - CQR: FF57NC
+LU1MPK coords from...QRZ2 latlon
+LU2VN coords from...QRZ3 latlon
+LU3CM coords from...QRZ1 latlon
+QRZ: GF05rm(user) - CQR: GF05SM
+LU3DAK coords from...QRZ2 latlon
+LU4ECN coords from...QRZ1 latlon
+LU4ECN coords from...QRZ1 latlon
+LU4ECN coords from...QRZ1 latlon
+QRZ: FF81dg(grid) - CQR: FF81UG
+LU7DSY coords from...CQR2 grid
+QRZ: FF81dg(grid) - CQR: FF81UG
+LU7DSY coords from...CQR2 grid
+QRZ: FF81dg(grid) - CQR: FF81UG
+LU7DSY coords from...CQR2 grid
+LX1MGG coords from...QRZ1 latlon
+QRZ: KO14wv(user) - CQR: KO14XV
+LY1CZ coords from...CQR2 grid
+QRZ: KO14wv(user) - CQR: KO14XV
+LY1CZ coords from...CQR2 grid
+QRZ: KO14wv(user) - CQR: KO14XV
+LY1CZ coords from...CQR2 grid
+QRZ: KO14wv(user) - CQR: KO14XV
+LY1CZ coords from...CQR2 grid
+QRZ: KO15kg(dxcc) - CQR: KO14XV
+LY2FN coords from...CQR2 grid
+LZ5EO coords from...QRZ1 latlon
+M0DBO coords from...QRZ1 latlon
+QRZ: IO80hp(user) - CQR: IO80AS
+M0EDY coords from...QRZ2 latlon
+QRZ: IO80hp(user) - CQR: IO80AS
+M0EDY coords from...QRZ2 latlon
+QRZ: IO92tn(user) - CQR: IO92UL
+M0KWR coords from...QRZ2 latlon
+QRZ: IO82ve(user) - CQR: IO82DE
+M0SAS coords from...CQR2 grid
+QRZ: IO82ve(user) - CQR: JN75OC
+M0SAS coords from...QRZ2 latlon
+QRZ: IO93gn(user) - CQR: IO93EM
+M0TNG coords from...QRZ2 latlon
+QRZ: AA00aa(user) - CQR: IO80FL
+M0TQR coords from...CQR2 grid
+QRZ: AA00aa(user) - CQR: IO80FL
+M0TQR coords from...CQR2 grid
+M0WAY coords from...QRZ1 latlon
+QRZ: IO93ga(user) - CQR: IO92XX
+M0WMX coords from...QRZ2 latlon
+M0YOL coords from...QRZ1 latlon
+M0ZRQ coords from...QRZ1 latlon
+M3OPG coords from...QRZ1 latlon
+M3OPG coords from...QRZ1 latlon
+M5LRO coords from...QRZ1 latlon
+M5PLY coords from...QRZ1 latlon
+MI6GNP coords from...QRZ1 latlon
+MI6NUM coords from...QRZ1 latlon
+QRZ: IN89we(dxcc) - CQR: IN89WF
+MJ0LEL coords from...CQR2 grid
+QRZ: IN89we(dxcc) - CQR: IN89WF
+MJ0LEL coords from...CQR2 grid
+MM0WAX coords from...QRZ1 latlon
+MM3UOR coords from...QRZ1 latlon
+MM3WYM coords from...QRZ1 latlon
+MM6HVT coords from...QRZ1 latlon
+MW0SGR coords from...QRZ1 latlon
+N0EO coords from...QRZ1 latlon
+N0HIU coords from...QRZ1 latlon
+N1CC coords from...QRZ1 latlon
+N1HNY coords from...QRZ1 latlon
+QRZ: EM86ei(user) - CQR: EM86EK
+N2BFD coords from...QRZ2 latlon
+QRZ: FN22ba(geocode) - CQR: FN22BC
+N2RSE coords from...CQR2 grid
+N3AAZ coords from...QRZ1 latlon
+N3BSQ coords from...QRZ1 latlon
+N4CPT coords from...QRZ1 latlon
+QRZ: EM17iq(dxcc) - CQR: EL98ET
+N4N coords from...CQR2 grid
+N4TEX coords from...QRZ1 latlon
+N5DOA coords from...QRZ1 latlon
+N7IY coords from...QRZ1 latlon
+N8IFQ coords from...QRZ1 latlon
+N8XAH coords from...QRZ1 latlon
+N9RWC coords from...QRZ1 latlon
+N9VMO coords from...QRZ1 latlon
+ND3U coords from...QRZ1 latlon
+QRZ: EM20fh(user) - CQR: EM20GH
+NK5G coords from...QRZ2 latlon
+NP4RA coords from...QRZ1 latlon
+NW4KU coords from...QRZ1 latlon
+OE1TRB coords from...QRZ1 latlon
+OE1TRB coords from...QRZ1 latlon
+OE4HPC coords from...QRZ1 latlon
+OE4JHW coords from...QRZ1 latlon
+OE5FGO coords from...QRZ1 latlon
+OE5XEM coords from...QRZ1 latlon
+OE6DRG coords from...QRZ1 latlon
+OE6HTG coords from...QRZ1 latlon
+OE6JFG coords from...QRZ1 latlon
+OE6KLG coords from...QRZ1 latlon
+OE9PCJ coords from...QRZ1 latlon
+OH1IM coords from...QRZ1 latlon
+OH2KFO coords from...QRZ1 latlon
+OH2LBS coords from...QRZ1 latlon
+OH3RT coords from...QRZ1 latlon
+OH5GJZ coords from...QRZ1 latlon
+OH6GAZ coords from...QRZ1 latlon
+OH6XB coords from...QRZ1 latlon
+OK1KAO coords from...QRZ1 latlon
+OK1KM coords from...QRZ1 latlon
+OK1MLX coords from...QRZ1 latlon
+OK1PJB coords from...QRZ1 latlon
+QRZ: JO80ch(user) - CQR: JO80CG
+OK1UME coords from...QRZ2 latlon
+OK1VKQ coords from...QRZ1 latlon
+QRZ: JO70wn(grid) - CQR: JO80BJ
+OK1WCF coords from...CQR2 grid
+OK1XC coords from...QRZ1 latlon
+QRZ: JO70gh(dxcc) - CQR: JN79IU
+OK1ZOR coords from...CQR2 grid
+OK2APY coords from...QRZ1 latlon
+QRZ: JN89nj(user) - CQR: JN89NI
+OK2BPU coords from...QRZ2 latlon
+OK2JNB coords from...QRZ1 latlon
+QRZ: JN89bi(user) - CQR: JN89AI
+OK2RVM coords from...QRZ2 latlon
+OK4RQ coords from...QRZ1 latlon
+OM2ABL coords from...QRZ1 latlon
+OM3CUP coords from...QRZ1 latlon
+QRZ: JN98qn(user) - CQR: JN34UQ
+OM3DM coords from...CQR2 grid
+OM3KWT coords from...QRZ1 latlon
+OM3PR coords from...QRZ1 latlon
+OM5MZ coords from...QRZ1 latlon
+QRZ: KN08or(user) - CQR: KN08PR
+OM8GT coords from...QRZ2 latlon
+ON1AEY coords from...QRZ1 latlon
+ON2AFC coords from...QRZ1 latlon
+ON2MD coords from...QRZ1 latlon
+ON3DIL coords from...QRZ1 latlon
+ON3DWG coords from...QRZ1 latlon
+QRZ: JH21hi(grid) - CQR: JO21KI
+ON4BWI coords from...CQR2 grid
+ON4HTI coords from...QRZ1 latlon
+ON4KBJ coords from...QRZ1 latlon
+ON4KCG coords from...QRZ1 latlon
+ON4KEB coords from...QRZ1 latlon
+ON4MRI coords from...QRZ1 latlon
+ON6NL coords from...QRZ1 latlon
+ON6SX coords from...QRZ1 latlon
+ON7BL coords from...QRZ1 latlon
+ON7MV coords from...QRZ1 latlon
+ON7VK coords from...QRZ3 latlon
+ON8TC coords from...QRZ1 latlon
+ON8VE coords from...QRZ3 latlon
+OX3DB coords from...QRZ1 latlon
+OZ1IHB coords from...CQR3 grid
+PA0FNB coords from...QRZ1 latlon
+PA0LUX coords from...QRZ1 latlon
+PA1HCB coords from...QRZ1 latlon
+PA2PB coords from...QRZ1 latlon
+PA2PB coords from...QRZ1 latlon
+PA2PB coords from...QRZ1 latlon
+PA3CAU coords from...QRZ1 latlon
+PA3DBS coords from...QRZ1 latlon
+QRZ: JO32jt(user) - CQR: JO32HW
+PA3EPP coords from...QRZ2 latlon
+PA3EWP coords from...QRZ1 latlon
+PA3K coords from...QRZ1 latlon
+PA4ARP coords from...QRZ1 latlon
+QRZ: AA00aa(grid) - CQR: JO22PR
+PA4WIM coords from...CQR2 grid
+PA5RH coords from...QRZ1 latlon
+PA800GTB coords from...QRZ1 latlon
+PB0P coords from...QRZ1 latlon
+QRZ: JO22ga(dxcc) - CQR: JO21HS
+PD0MDA coords from...CQR2 grid
+PD1SA coords from...QRZ1 latlon
+PD2OOR coords from...QRZ1 latlon
+PD7AD coords from...QRZ1 latlon
+PD7AD coords from...QRZ1 latlon
+PD7Z coords from...QRZ1 latlon
+PD7Z coords from...QRZ1 latlon
+PE1CDE/A coords from...QRZ1 latlon
+QRZ: GG99us(user) - CQR: GG99UV
+PP1ER coords from...QRZ2 latlon
+QRZ: GG87ve(user) - CQR: GG87VD
+PU1SGT coords from...QRZ2 latlon
+QRZ: GH49eq(dxcc) - CQR: GG87LE
+PU1WDX coords from...CQR2 grid
+PU2PZZ coords from...QRZ1 latlon
+PU2TRX coords from...QRZ1 latlon
+PU2TRX coords from...QRZ1 latlon
+PU2TRX coords from...QRZ1 latlon
+QRZ: GG57kp(user) - CQR: GG57LQ
+PU2TXZ coords from...QRZ2 latlon
+PV8ADI coords from...QRZ1 latlon
+PY1SRG coords from...CQR3 grid
+PY2DN coords from...QRZ1 latlon
+PY3AGI coords from...QRZ1 latlon
+PY3CJS coords from...QRZ1 latlon
+PZ5RA coords from...QRZ1 latlon
+QRZ: KP50bs(user) - CQR: KP50DL
+R1AY coords from...QRZ2 latlon
+QRZ: KO86ri(user) - CQR: KO86SI
+R3FO coords from...QRZ2 latlon
+QRZ: KO85ss(dxcc) - CQR: KO84PC
+R3PM coords from...CQR2 grid
+R5ACQ coords from...QRZ1 latlon
+QRZ: KO85ss(dxcc) - CQR: LN04NX
+R6DL coords from...CQR2 grid
+QRZ: KN93wl(user) - CQR: KN93WM
+R7AZ coords from...QRZ2 latlon
+R7BX coords from...QRZ1 latlon
+R7DA coords from...QRZ1 latlon
+RA1QIB coords from...QRZ1 latlon
+RA1TCJ coords from...QRZ1 latlon
+QRZ: KO59ud(user) - CQR: KO59UC
+RA1TV coords from...QRZ2 latlon
+RA2FB coords from...QRZ1 latlon
+RA2FIA coords from...QRZ1 latlon
+RA3DRI coords from...QRZ1 latlon
+QRZ: LO43fd(grid) - CQR: LO43FE
+RA4HL coords from...CQR2 grid
+RA4HLK coords from...QRZ1 latlon
+RA6ASU coords from...QRZ1 latlon
+RA6ASU coords from...QRZ1 latlon
+RC3EPC coords from...QRZ1 latlon
+RD22DD coords from...QRZ1 latlon
+QRZ: KO75mn(user) - CQR: KO75LN
+RG61PP coords from...CQR2 grid
+QRZ: OO62mg(dxcc) - CQR: KO75MM
+RG80KEDR coords from...CQR2 grid
+RN1NS coords from...QRZ3 latlon
+RN3DD coords from...QRZ1 latlon
+QRZ: KO85ss(dxcc) - CQR: LN14NB
+RN6HGN coords from...CQR2 grid
+RU3FA coords from...QRZ1 latlon
+RU3XB coords from...QRZ1 latlon
+QRZ: KO84dl(user) - CQR: KO84DM
+RU3XJ coords from...QRZ2 latlon
+QRZ: KO86oa(user) - CQR: KO86MD
+RV3DCM coords from...QRZ2 latlon
+QRZ: KO85ss(dxcc) - CQR: KN93VN
+RV6CX coords from...CQR2 grid
+RW1CL coords from...QRZ1 latlon
+QRZ: KO85ss(dxcc) - CQR: KO86UU
+RW3BO coords from...CQR2 grid
+QRZ: KN95lb(user) - CQR: KN95LA
+RX6DY coords from...QRZ2 latlon
+RY7A coords from...QRZ1 latlon
+QRZ: KO85xq(grid) - CQR: KO85XR
+RZ3DC coords from...CQR2 grid
+RZ3DZ coords from...QRZ1 latlon
+RZ6HNP coords from...QRZ1 latlon
+S56VJM coords from...QRZ1 latlon
+SE6Y coords from...QRZ1 latlon
+QRZ: JO76eo(user) - CQR: JO76HX
+SM7HZK coords from...QRZ2 latlon
+QRZ: JO76eo(user) - CQR: JO76HX
+SM7HZK coords from...QRZ2 latlon
+QRZ: JO66ja(user) - CQR: EM99QT
+SM7OYP coords from...QRZ2 latlon
+SP1DTG coords from...QRZ1 latlon
+SP1MHZ coords from...QRZ1 latlon
+SP1TMH coords from...QRZ1 latlon
+SP2BDR coords from...QRZ1 latlon
+SP3FCO coords from...QRZ1 latlon
+SP3QYJ coords from...QRZ1 latlon
+QRZ: JO92df(grid) - CQR: JO92DE
+SP3SLO coords from...CQR2 grid
+QRZ: JO92df(grid) - CQR: JO92DE
+SP3SLO coords from...CQR2 grid
+SP3UIW coords from...QRZ1 latlon
+SP4CJA coords from...QRZ1 latlon
+SP5GRU coords from...QRZ1 latlon
+QRZ: JO92uv(user) - CQR: KO02MM
+SP5NHK coords from...QRZ2 latlon
+SP8QC coords from...QRZ1 latlon
+SQ2IIV coords from...QRZ1 latlon
+SQ8OAU coords from...QRZ1 latlon
+SQ8OAU coords from...QRZ1 latlon
+SV2DFK coords from...QRZ1 latlon
+SV2HTI coords from...QRZ1 latlon
+SV2HYB coords from...QRZ1 latlon
+QRZ: KN10mn(user) - CQR: KN10LP
+SV2JU coords from...CQR2 grid
+SV2QQR coords from...QRZ1 latlon
+SV3ICL coords from...QRZ1 latlon
+QRZ: KM46cj(user) - CQR: KM46CK
+SV5AZK coords from...QRZ2 latlon
+QRZ: KM09ko(user) - CQR: KM09KP
+SV6DBL coords from...QRZ2 latlon
+QRZ: KM18va(user) - CQR: KN10UR
+SV7MTO/1 coords from...CQR2 grid
+QRZ: KN41kb(user) - CQR: KN40KX
+TA1GO coords from...QRZ2 latlon
+TF2MSN coords from...QRZ1 latlon
+TF3FIN coords from...QRZ1 latlon
+TF3MHN coords from...QRZ1 latlon
+TF5B coords from...QRZ1 latlon
+TF8HP coords from...CTY
+QRZ: EK44ro(user) - CQR: EK09KE
+TG9AHM coords from...QRZ2 latlon
+QRZ: EK44ro(user) - CQR: EK09KE
+TG9AHM coords from...QRZ2 latlon
+QRZ: EJ79wv(geocode) - CQR: EJ79XV
+TI2AIM coords from...CQR2 grid
+QRZ: EK70wf(dxcc) - CQR: DL91ED
+TI2CCC coords from...CQR2 grid
+QRZ: EJ79vv(user) - CQR: EJ79XW
+TI2HMJ coords from...QRZ2 latlon
+QRZ: EJ79ww(user) - CQR: FF46OL
+TI2JCY coords from...QRZ2 latlon
+QRZ: EJ89au(user) - CQR: EJ89DS
+TI3EDM coords from...QRZ2 latlon
+UA0JL/6 coords from...QRZ1 latlon
+QRZ: KO85ss(user) - CQR: KO58PM
+UA1TAT coords from...QRZ2 latlon
+UA3DNK coords from...QRZ1 latlon
+QRZ: KO92pn(user) - CQR: KO92SO
+UA3GIE coords from...QRZ2 latlon
+UA6AVA coords from...QRZ1 latlon
+QRZ: KO85ss(dxcc) - CQR: KN95QJ
+UA6BCN coords from...CQR2 grid
+UA6CDM coords from...QRZ1 latlon
+QRZ: KO85ss(dxcc) - CQR: LN14AF
+UA6EAS coords from...CQR2 grid
+UA6XES coords from...QRZ1 latlon
+QRZ: KN59rb(dxcc) - CQR: KN98FV
+UR0MR coords from...CQR2 grid
+QRZ: KN59rb(dxcc) - CQR: KN58CS
+UR3CFC coords from...CQR2 grid
+QRZ: KN59rs(user) - CQR: KN59RR
+UR3CTB coords from...QRZ2 latlon
+UR5CN coords from...QRZ1 latlon
+UR5WCA coords from...QRZ1 latlon
+QRZ: KN58aa(user) - CQR: KN58KB
+UR5ZW coords from...QRZ2 latlon
+UR8GM coords from...QRZ1 latlon
+UR9IR coords from...QRZ1 latlon
+QRZ: KN98qn(user) - CQR: KN98PN
+US0MM coords from...QRZ2 latlon
+US1CR coords from...QRZ1 latlon
+QRZ: KN87uw(user) - CQR: KN87VX
+US5IMX coords from...QRZ2 latlon
+US5QGL coords from...QRZ1 latlon
+US7KC coords from...QRZ1 latlon
+US8UW coords from...QRZ1 latlon
+QRZ: KN59rb(dxcc) - CQR: KN66HQ
+UT3GP coords from...CQR2 grid
+QRZ: KN78gp(grid) - CQR: IN52PF
+UT4EO coords from...CQR2 grid
+QRZ: KN78mm(user) - CQR: KN78ML
+UT5EOU coords from...QRZ2 latlon
+UT8IU coords from...QRZ1 latlon
+QRZ: KN89ev(user) - CQR: KN89EW
+UX4LX coords from...CQR2 grid
+UX7QV coords from...QRZ1 latlon
+UY2IS coords from...QRZ1 latlon
+UY2IS coords from...QRZ1 latlon
+QRZ: KN87vw(user) - CQR: KN88UB
+UY5IC coords from...QRZ2 latlon
+QRZ: KN88sr(user) - CQR: KN88TR
+UY9IF coords from...QRZ2 latlon
+VE2AUW coords from...QRZ1 latlon
+VE3FGU coords from...QRZ1 latlon
+QRZ: EN92js(none) - CQR: EN92KS
+VE3KQK coords from...CQR2 grid
+QRZ: EN82tw(user) - CQR: EN82TX
+VE3RSI coords from...QRZ2 latlon
+VE3ZDB coords from...QRZ1 latlon
+VE9UN coords from...QRZ1 latlon
+VK3BM coords from...QRZ1 latlon
+QRZ: GN37af(user) - CQR: GN37AE
+VO1SO coords from...CQR2 grid
+VO1TX coords from...QRZ1 latlon
+VO2NS coords from...QRZ1 latlon
+W0/G4KHG/M coords from...CQR3 grid
+QRZ: FN31pr(user) - CQR: EM37QQ
+W1AW/0 coords from...CQR2 grid
+QRZ: FN31pr(user) - CQR: EM37QQ
+W1AW/0 coords from...CQR2 grid
+QRZ: FN31pr(user) - CQR: EM37QQ
+W1AW/4 coords from...CQR2 grid
+QRZ: FN31pr(user) - CQR: EM37QQ
+W1AW/4 coords from...CQR2 grid
+QRZ: FN31pr(user) - CQR: EM37QQ
+W1AW/4 coords from...CQR2 grid
+W1AW/5  coords from...QRZ3 latlon
+W3AAX coords from...QRZ1 latlon
+W3OFD coords from...QRZ1 latlon
+W3R coords from...QRZ1 latlon
+QRZ: EM83ah(user) - CQR: EM83AE
+W4FGA coords from...QRZ2 latlon
+W5WVI coords from...QRZ1 latlon
+QRZ: EM13ud(user) - CQR: EM13TD
+W5ZIT coords from...QRZ2 latlon
+W7ORC coords from...QRZ1 latlon
+W8HAW coords from...QRZ1 latlon
+W8MLS coords from...QRZ1 latlon
+W9SMR coords from...QRZ1 latlon
+W9VHL coords from...QRZ1 latlon
+WA2TGE coords from...QRZ1 latlon
+WA3EOP coords from...QRZ1 latlon
+WA3EOP coords from...QRZ1 latlon
+WA4RQG coords from...QRZ1 latlon
+WA5AMM coords from...QRZ1 latlon
+WA5PQL coords from...QRZ1 latlon
+WA6OSX coords from...QRZ1 latlon
+WA8LBZ coords from...QRZ1 latlon
+WA9CAP coords from...QRZ1 latlon
+WB0RUR coords from...QRZ1 latlon
+QRZ: EL98aw(geocode) - CQR: EL98BW
+WB2VYK coords from...CQR2 grid
+WC5W coords from...QRZ1 latlon
+WD8FM coords from...QRZ1 latlon
+WG3R/0 coords from...QRZ1 latlon
+WT6X coords from...QRZ1 latlon
+WU3H coords from...QRZ1 latlon
+QRZ: EK09kj(user) - CQR: DL83RP
+XE1JLO coords from...QRZ2 latlon
+XE1JP coords from...QRZ1 latlon
+XE2MX coords from...QRZ1 latlon
+XE2OCM coords from...QRZ1 latlon
+XQ3UP coords from...QRZ1 latlon
+YL3BF coords from...QRZ1 latlon
+YL3BF coords from...QRZ1 latlon
+YO4FKO coords from...QRZ1 latlon
+YO5OO coords from...QRZ1 latlon
+YO7CFD coords from...QRZ1 latlon
+YO8RSL coords from...QRZ1 latlon
+YT2T coords from...QRZ1 latlon
+YT7TU coords from...QRZ1 latlon
+YU1AB coords from...QRZ1 latlon
+YU2DJK coords from...QRZ1 latlon
+QRZ: FJ69cc(dxcc) - CQR: FK60AF
+YV4DHS coords from...CQR2 grid
+QRZ: FJ69cc(dxcc) - CQR: FK60AF
+YV4DHS coords from...CQR2 grid
+QRZ: FK60eg(user) - CQR: FK60IF
+YV4FUE coords from...QRZ2 latlon
+YV4OW coords from...QRZ1 latlon
+YV5CWM coords from...QRZ1 latlon
+YV5EPM coords from...QRZ1 latlon
+YV5JGO coords from...QRZ1 latlon
+YV5JGO coords from...QRZ1 latlon
+YY4CEG coords from...QRZ1 latlon
+YY5FRD coords from...QRZ1 latlon
+QRZ: FJ69cc(dxcc) - CQR: FK60MM
+YY5PCA coords from...CQR2 grid
+QRZ: FJ69cc(dxcc) - CQR: FK60MM
+YY5PCA coords from...CQR2 grid
+YY5SKA coords from...QRZ1 latlon
+QRZ: FK81bb(user) - CQR: IL18KC
+YY7PMG coords from...QRZ2 latlon
+YY8HBO coords from...QRZ1 latlon
+ZB3R coords from...QRZ1 latlon
+ZR6AOC coords from...QRZ1 latlon
+ZR6DX coords from...QRZ1 latlon
+ZS3FS coords from...QRZ1 latlon
+QRZ: KG33xu(user) - CQR: KG33WU
+ZS6WR coords from...QRZ2 latlon
+QRZ: GH49eq(dxcc) - CQR: GH64BE
+ZX14DF coords from...CQR2 grid
+QRZ: GH49eq(dxcc) - CQR: GH64CE
+ZX14PE coords from...CQR2 grid
+ZZ80RN coords from...QRZ3 latlon
+ZZ80SP coords from...QRZ3 latlon
+saving... ./kmllogtest.kml

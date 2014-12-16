@@ -1,0 +1,645 @@
+starting compare_grid...
+Call           QRZ            HamQTH         Cqrlog
+----           ---            ------         ------
+2E0BPP         IO83SS         IO83SS         IO83SS            grid
+2E0GBK         IO91VL         IO91TG         IO91TG         *  dxcc
+2E0JCQ         IO91RS         Not Found      IO91WO         +  user
+2E0VDS         JO02AL         JO02AL         JO02AL            user
+2M0ONW         IO75SP         IO75SP         IO75SP            user
+2M0WEV         IO85DU         IO85DU         IO85DU            user
+2M0YIO         IO75PP         IO75PP         IO75PP            user
+4Z5OY          KM72LT         KM72LT         KM72LT            user
+5J0R           EK92DM         EK92DN         EK92DN         *  user
+5Z4EE          JO70AM         EN51WS         KI88JS         +  state
+7X3FG          IL97UU         Not Found      IL97UU            user
+9A1R           JN75XT         JN75XT         JN75XT            user
+9A9K           JN85AT         Not Found      JN85AT            user
+9A9TT          JN76WD         Not Found      JN76WD            user
+9H1ET          JM75FV         No grid        JM75GU         +  dxcc
+A61DD          LL85AT         LL75QI         LL75QI         *  user
+AA0AW          EN36VQ         EN36VQ         EN36VQ            user
+AA5AT          EM40KN         EM40KN         EM40KN            user
+AA7IX          DN71OE         DN71OE         DN71OE            user
+AB4UG          FM02AS         FM02AS         FM02AS            geocode
+AC4R           EM72LL         EM72LL         EM72LL            geocode
+AD0CZ          EN34KW         EN34KW         EN34KW            geocode
+AF6XW          DM03VU         DM03VU         DM03VU            user
+AG4HG          EM75JE         EM75JE         EM75JE            geocode
+AI8F           EM74HU         EM74HU         EM74HU            user
+AM03CV         JN11BI         Not Found      JN11BI            user
+AN05DZC        Not Found      Not Found      IM97MO         +  Not Found
+C6ADL          FL15HA         Not Found      FL15IB         +  dxcc
+C6AVD          FL15HA         FL15HB         FL15HB         *  user
+CE3WR          FF46QM         FF46QM         FF46QM            user
+CM2AME         EL83UC         Not Found      EL83UC            user
+CM2YQ          EL92ET         Not Found      No grid        +  dxcc
+CM3DSE         EL82RW         EL82RW         EL82RW            user
+CO0SM          EL92ET         Not Found      FL01LT         +  dxcc
+CO2CW          EL83WW         EL83UA         EL83UA         *  user
+CO2GL          EL83TD         EL83TC         EL83TC         *  grid
+CO2PN          EL92ET         EL83TC         EL83TC         *  dxcc
+CO2VE          EL83SB         EL83TC         EL83SB            user
+CO3CJ          EL82RT         No grid        EL82RT            geocode
+CO4SM          JA00AA         JN12LG         JN12LG         *  grid
+CO5FB          EL92ET         EL93KA         EL93KA         *  dxcc
+CO6HLP         FL02AJ         No grid        FL02AJ            user
+CO7WT          FL11AJ         FL11AI         FL11AI         *  user
+CO8LY          FL20LA         FF46QO         FF46QO         *  user
+CO8WZ          FL20CA         FL20CA         FL20CA            user
+CP1FF          FH53XL         FH53WM         FH53WM         *  user
+CR8ABC         HM68JP         Not Found      HM68JP            user
+CS7AED         IM58MR         IM58MR         IM58MR            user
+CT1AGS         IM59MN         IM59MN         IM59MN            user
+CT1CQK         IM58IS         IM58HT         IM58HT         *  user
+CT1FAW         IM58JQ         IM58JQ         IM58JQ            user
+CT1FIU         IN50RT         IN50RT         IN50RT            user
+CT2FPY/P       IN50QN         IN50QN         IN50QN            user
+CT2IWW         IN51WF         IN51WF         IN51WF            user
+CT4RC          IM67AA         IM67AA         IM67AA            user
+CT5JZX/MM      IM58KQ         IM58KQ         IM58KQ            user
+CU2AP          HM77ET         HM77DS         HM77ET            user
+CU2CE          HM77FT         HM58XL         HM58XL         *  user
+CU7AJ          HM58QN         HM58QN         HM58QN            user
+CX1FU          GF16WV         GF15UJ         GF15GN         +  dxcc
+CX4ACH         GF15WD         GF15VC         GF15VC         *  user
+D2QR           JH87SX         JI91OP         JI91OP         *  dxcc
+DB1ID          JN49BR         JN49BR         JN49BR            user
+DB4RG          JN59ML         JN59ML         JN59ML            user
+DB7HH          JO51CV         JO51BV         JO51BV         *  user
+DC1MRR         JN57FU         Not Found      JN57FU            user
+DD9QD          JO32TG         JO32TG         JO32TG            user
+DF5WB          JN49AV         JN49AV         JN49AV            user
+DF6ZM          JO32PN         JO32PN         JO32PN            user
+DG1DUG         JO42WX         JO43UA         JO43UA         *  user
+DG5CQ          Not Found      Not Found      No grid        +  Not Found
+DG5MLA         JN58QR         JN58QR         JN58QR            user
+DH0YAH         JO32OH         JO32MF         JO42WQ         +  user
+DH1AKG         JO60CO         JO60CO         JO60CO            user
+DJ0JG          JN37WX         JN37WX         JN37WX            grid
+DK5II          JO50KQ         JO50KQ         JO50KQ            user
+DK6WH          JO50LU         JO50LU         JO50LU            user
+DK7EH          JO31KM         JO31KM         JO31KM            user
+DK7XH          JN39GO         Not Found      JN39GO            user
+DK9KW          JO32MB         Not Found      JO32MB            user
+DL0IR          JN58RS         JN58RS         JN58RS            user
+DL1FAM         JN49IX         JN49HX         JN49HX         *  user
+DL1FCU         JN49KW         JN49KW         JN49KW            user
+DL2OCE         JO41XW         JO41XW         JO41XW            user
+DL2QW          JO31TQ         Not Found      JO31TQ            user
+DL3WK          JO42SM         JO42SN         JO42SN         *  user
+DL5CJ          JN68HD         JN68HD         JN68HD            user
+DL5ZA          JO51HK         JO51HK         JO51HK            user
+DL5ZB          JO60SW         JO60SW         JO60SW            user
+DL6NDW         JN58SD         JN58SD         JN58SD            user
+DL6PU          JO30VR         Not Found      JO30VR            user
+DL7UDA         JO62TK         JO62TK         JO62TK            user
+DL8WF          JO61DU         JO61DU         JO61DU            user
+DM2CF          JO60EM         JO60EM         JO60EM            user
+DM2CNE         JO73DB         JO73DB         JO73DB            user
+DM4ZPJ         JO60DR         JO60DR         JO60DR            user
+DM5BB          JO62QK         JO62QJ         JO62QK            user
+DO1EWT         JO31OF         Not Found      JO31OF            user
+DO3ME          JO31LG         JO31LG         JO31LG            user
+DO4DSR         JO31PE         Not Found      JO31PE            user
+DO6KPU         JO30VR         Not Found      JO30VR            user
+DO7PD          JO31OO         JO31OO         JO31OO            user
+E74DO          JN83SX         JN95DA         JN95DA         *  dxcc
+E77AW          JN83TJ         JN83SI         JN83TJ            user
+EA1LN          IN73AN         IN73AN         IN73AN            user
+EA1WY          IN73EM         IN73EM         IN73EM            grid
+EA3AYQ         JN11MS         JN11MT         JN11MT         *  user
+EA3EZD         JN11DO         JN11DO         JN11DO            user
+EA3TC          JN11DK         JN11CK         JN11CK         *  user
+EA3UV          JN01RD         JN01RD         JN01RD            user
+EA4AOJ         IN80DJ         IN80DK         IN80DK         *  user
+EA4DS          IN80EK         IN80EK         IN80EK            user
+EA5FIF         IM98RP         IM98RP         IM98RP            user
+EA5GMM         IM97LP         Not Found      IM97LP            user
+EA5IBW         IN80DJ         Not Found      IM97OO         +  dxcc
+EA5XK          IN80DJ         Not Found      No grid        +  dxcc
+EA7AH          IM67ND         IM67ND         IM67ND            user
+EA7AQV         IM77LN         IM77KL         IM77KL         *  user
+EA7IZZ         IM66TS         IM66TS         IM66TS            user
+EA7KR          IM76KK         IM76KK         IM76KK            user
+EA8AQV         IL28ED         IL28ED         IL28ED            user
+EA8ATE         IL28HA         IL28HA         IL28HA            user
+EA8FO          IL18QA         IL18QA         IL18QA            user
+EA8GP          IL18RK         IL18RK         IL18RK            user
+EA8HZ          IL18TK         IL18TK         IL18TK            user
+EA8TL          IL18NF         IL18NF         IL18NF            user
+EA9BO          IM75IV         IM75IV         IM85MH         +  user
+EB5DZC         IM97MO         IM97MO         IM97MO            user
+EC1DJ          Not Found      IN52OO         IN52OO         *  Not Found
+EC8AXS         IL38EX         IL39EB         IL39EB         *  user
+EG5HSJ         IM98RI         IM98NE         IM98RI            user
+EH1CM          IN73AN         Not Found      IN73AN            user
+EI2HXB         IO65II         Not Found      IO65II            user
+EI5EV          IO62KG         IO62LH         IO62LH         *  user
+EI9GLB         IO62UO         IO62UP         IO62UO            user
+ES1JA          KO29HK         Not Found      KO29HK            user
+ES3BR          KO28JS         KO28JS         KO28JS            user
+ES3HZ          KO28QT         KO28QT         KO28QT            user
+ES3RD          KO19RE         KO19RE         KO19RE            user
+ES5EVO         KO38NG         KO38NG         KO38NG            user
+EV1P           KO34VG         KO33SV         KO33SV         *  dxcc
+EW1KP          KO33TW         KO33SV         KO33SV         *  user
+EW2CC          KO34UA         KO75CF         KO75CF         *  grid
+EW2NN          KO44EC         KO44EC         KO44EC            user
+EW6FW          KO55BE         KO55BE         KO55BE            user
+F1AKX          JN18EU         IN98HQ         IN98HQ         *  dxcc
+F1ILA          IN93MN         IN93MN         IN93MN            user
+F1SYG          Not Found      JN26SP         JN26SP         *  Not Found
+F2YT           JN18EU         JO10HJ         JO10GK         +  dxcc
+F4BVO          JN25VT         JN25VT         JN25VT            user
+F4EUG          IN88GH         IN88GH         IN88GH            user
+F4FNL          JN25WV         JN25WV         JN25WV            user
+F4GFP          JN05IK         JN05IK         JN05IK            user
+F4GHG          JO10ME         JO10ME         JO10ME            user
+F4HFX          JN04EJ         Not Found      JN04EJ            user
+F4HIR          JO10QI         Not Found      JO10QI            user
+F5BWS          JO10PA         JO10PA         JN26CP         +  user
+F5NMK          JN38NQ         JN38NQ         JN38NQ            user
+F5PEZ          JO10EP         JO10EP         JO10EP            user
+F5RRO          Not Found      JN18FS         JN18FS         *  Not Found
+F6ARS          JN18LT         JN18LT         JN18LT            user
+F6FUJ          IN87QU         IN87QU         IN87QU            user
+F6IJT          IN88RO         IN88RO         IN88RO            user
+FG1JS          FK96IF         FK96ED         FK96IF            user
+FY4PR          GJ35QE         Not Found      GJ35QE            user
+G0JEI          IO93IC         IO93KH         IO93KH         *  user
+G0RUD          IO90IU         IO92JI         IO92JI         *  user
+G100RSGB       IO91VL         JO02BG         JO02BG         *  dxcc
+G3PQB          IO92VO         IO92VN         IO92VN         *  user
+G4TGK          JO00LX         JO00LX         JO00LX            geocode
+G7BTP          IO93VO         IO93VO         IO93VO            user
+G8DX           IO81VJ         IO81VJ         IO81VJ            user
+G8ZSG          Not Found      Not Found      No grid        +  Not Found
+GI4SZW         IO64TE         No grid        IO64TE            user
+GI7AXB         IO74AS         IO74AS         IO74AS            geocode
+GM0SDV         IO85HR         IO76VL         IO76VL         *  dxcc
+GM0UDL/MM      IO77VO         IO77WN         GN56XR         +  geocode
+HA1ZW          JN86JT         JN86JT         JN86JT            user
+HA5BSC         JN97MK         JN97NK         JN97NK         *  user
+HA5DSC         JN97NM         JN97NM         JN97NM            user
+HA6NL          JN98WD         JN98WD         JN98WD            user
+HB0WR          JN47SC         Not Found      JN47SC            user
+HB9EBV         JN36QW         JN37TN         JN37TN         *  dxcc
+HB9ERU         JN47LG         JN47FJ         JN47FJ         *  user
+HB9FAX         JN46KE         JN46KD         JN46KD         *  user
+HB9JNM         JN47JM         JN47JM         JN47JM            user
+HC1AJQ         FI09SQ         No grid        FI09SQ            user
+HG1RM          JN86JQ         JN86JQ         JN86JQ            geocode
+HI8CSS         FK58CL         FK58BM         FK58BM         *  user
+HI8MU          FK48XK         FK58AL         FK58AL         *  user
+HK2PMR         FK20OU         FK20OU         FK20OU            user
+HK3VHZ         FJ24XR         FJ24XD         FJ24XD         *  user
+HO100CANAL     FJ08BN         Not Found      FJ09HF         +  user
+HP1AVS         FJ08BN         EM60XH         EM60XH         *  user
+HP1CDZ         FJ09FB         FJ08FX         FJ08FX         *  user
+HP1CPE         FJ09FA         FJ09FA         FJ09FA            user
+HP1FWH         EJ98XP         Not Found      EJ98XP            user
+HP2SM          FJ09BI         FJ09BI         FJ09BI            user
+HR1AAB         EK64IM         EK64JC         EK64JC         *  dxcc
+I1FLC          JN44JK         JN44LJ         JN44LJ         *  user
+I1YTO          JN44CV         JN44ES         JN44ES         *  geocode
+I4IOR          JN62KS         JN54KS         JN54KS         *  dxcc
+I8QJU          JN70EV         JN70EV         JN70EV            user
+IK3VVC         JN62KS         JN55SN         JN55SN         *  dxcc
+IK4IDF         JN54XL         JN54XL         JN54XL            user
+IK5FKB         JN53WL         JN53WL         JN53WL            user
+IK5FKF         JN54FB         JN54FB         JN54FB            user
+IK6BGJ         JN72CK         JN72CK         JN72CK            user
+IK6CVI         JN72CK         JN72CK         JN72CK            user
+IK8YSS         JN70AU         JN70BU         JN70AU            user
+IM0FFL         JN41QF         Not Found      JN41QF            user
+IS0DSW         JN40GR         JN40GR         JN40GR            user
+IS0IGV         JM49NF         JM49NF         JM49NF            user
+IS0YHV         JM49LG         JM49LH         JM49LH         *  grid
+IT9CCB         JM77PC         JM77PB         JM77PC            user
+IT9COR         JM68ND         JM68ND         JM68ND            user
+IT9NOV         JM78JC         JM78JC         JM78JC            geocode
+IU4AOS         JN54TT         Not Found      JN54TT            user
+IU8ALH         JN70TB         Not Found      JN70TB            user
+IV3JER         JN62KS         JN66LB         JN66LB         *  dxcc
+IV3VOU         JN66LJ         JN66LJ         JN66LJ            grid
+IW1FRD         JN35TB         JN35TB         JN35TB            user
+IW1FZR         JN45BJ         JN45BJ         JN45BJ            geocode
+IW2CXB         JN45TP         JN45TP         JN45TP            user
+IW5BAX         JN53SQ         JN53SQ         JN53SQ            user
+IW9ANR         JM78HB         JM78HB         JM78HB            user
+IZ0VRD         JN61DW         JN61DW         JN61DW            user
+IZ0VSA         JN62KS         JN61HW         JN61HW         *  dxcc
+IZ1XBB         JN44KV         JN44KV         JN44KV            user
+IZ2EWN         JN45RM         JN45RM         JN45RL         +  user
+IZ2KLV         JN45JQ         JN45JQ         JN45JQ            user
+IZ3GNL         Not Found      Not Found      No grid        +  Not Found
+IZ4EFV         JN64GC         JN64GB         JN64GB         *  user
+IZ8GGF         JN70BU         JN70BT         JN70BT         *  user
+IZ8IZK         JM89CD         JM89CD         JM89CD            user
+IZ8JFL         JN70CV         JN70CV         JN70CV            grid
+IZ8LMA         JN70FP         JN70FP         JN70FP            user
+J42OSE         KN10KP         Not Found      KN10KP            user
+JR1EMO         PM95QU         Not Found      PM95QU            user
+K0DO/W0LDO     EM48RN         EM48RN         EM48UO         +  geocode
+K0EFD          DM78TT         DM78UX         DM78UX         *  user
+K0RJV          EN22VM         EN22VM         EN22VM            user
+K1SCN          DM08DV         DM08DV         DM08DU         +  user
+K2L            EM93XC         Not Found      EM93XC            user
+K3BAK          EN90XI         FN00AK         FN00AK         *  user
+K3GY           EN92XD         EN92XD         EN92XD            user
+K4ERO          EM74GT         EM74HT         EM74GT            user
+K4FBP          EL96TA         EL96TA         EL96TA            geocode
+K4L            FM25AC         Not Found      FM25FG         +  user
+K4MWE          FM05PU         FM05PU         FM05PU            geocode
+K4SOL          EM55NV         EM55NV         EM55NV            geocode
+K4TFT          EM70CE         EM70ED         EM70ED         *  user
+K5DCZ          EM13LB         EM13MB         EM13LB            user
+K5TLJ          EM45RQ         EM45RQ         EM45RQ            user
+K5YWL          EM36KF         EM36KF         EM36KF            geocode
+K6VIB          CN84JU         CN84JU         CN84JU            user
+K7UDG          CN88UB         CN88UB         CN88UB            user
+K8TBW          EN81HD         EN81KH         EN81KH         *  user
+K9KJN          EM69TO         EM69TO         EM69TO            user
+K9ZJ           EN53UA         EN53UA         EN53UA            geocode
+KA4HOT         EM64PS         EM64PS         EM64PS            user
+KA4OIL         EM88QK         EM88QK         EM88QK            user
+KA9QKD         EN54KH         EN54KH         EN54KH            user
+KB0QC          DN70OC         DN70OC         DN70OC            geocode
+KB0VB          EM90EC         EM90EC         EM90EC            geocode
+KB0WLF         EM47FO         EM47HJ         EM47FO            zip
+KB1RXA         EL88QG         EL88QH         EL88QG            user
+KB3TJR         FM18NP         FM18NP         FM18NP            zip
+KB5IAV         EM40ML         EM40MJ         EM40ML            user
+KB8BIP         EM88VK         EM88VK         EM88VK            user
+KB8GYU         EM99EG         EM99FH         EM99FH         *  zip
+KB8STV         EN90FV         EN90FV         EN90FV            geocode
+KC0MS          EN31FO         EN31FO         EN31FO            geocode
+KC0VFV         EN41FQ         EN41FQ         EN41FQ            geocode
+KC5SAM         EN34TM         EM47WX         EM47WX         *  user
+KC9AEI         EN54IB         EN54IB         EN54IB            user
+KC9DOA         EN53SS         EN53SS         EN53SS            geocode
+KC9GLI         EN61CV         EN61CV         EN61CV            user
+KD0UAG         EM48NO         Not Found      EM48NO            zip
+KD6DWX         DM13HV         DM13HV         DM13HV            geocode
+KD7EVN         CN87QI         CN87QI         CN87QI            zip
+KD8BPY         EM79WQ         EM79WQ         EM79WQ            geocode
+KD9AOK         EN51KI         EN51KI         EN51KI            user
+KD9BBB         EN62BD         EN62BE         EN62BE         *  user
+KE1AF          FN41GQ         DM12LS         FN41GQ            zip
+KE5IRK         EM04SO         EM04TO         EM04SO            user
+KE5OIZ         EM10DP         EM10DP         EM10DP            geocode
+KF2GQ          EL96WV         EL96WV         EL96WV            user
+KF5HIQ         EM12IW         EM12IW         EM12JW         +  user
+KF7F           DM37FB         DM37FB         DM37FB            user
+KF9KV          EN52ET         EN52ET         EN52ET            zip
+KG4BCN         EL87TW         EL87TW         EL87TW            user
+KG7BFP         DN48BV         DN48BV         DN48BV            user
+KI4HEL         EM67QG         EM67PF         EM67QG            user
+KI7VO          EM10CA         EM10BA         EM10BA         *  zip
+KJ4HB          EM96CL         EM96CL         EM96CL            geocode
+KJ8O           EN82JO         EN82JO         EN82JO            user
+KK4CPS         EM72NR         EM72NR         EM72NR            user
+KK4PJ          EM73NQ         EM73NO         EM73NO         *  zip
+KK4PWE         EM67VA         EM67VA         EM67VA            geocode
+KK7JS          EM13WC         EM13WC         EM13WC            geocode
+KK7XT          DN28FJ         DN28FJ         DN28FJ            geocode
+KO6IZ          DM04UG         DM04UG         DM04UG            user
+KP3PI          FK68SK         FK68SL         FK68SL         *  user
+KP4BC          FK68WI         FK68WI         FK68WI            user
+KP4FBM         FK68XF         FK68XF         FK68XF            user
+KP4MP          FK68VK         FN30FR         No grid        +  user
+KP4RY          FK68NH         FK68PL         FK68PL         *  user
+KQ7W           CN87RM         CN87QL         CN87RM            user
+KR4VT          EM77BS         EM77BS         EM77BS            geocode
+KS0B           EM48AU         EM48AU         EM48AU            geocode
+KS4GY          EM84AA         EM84AA         EM83BX         +  geocode
+KT4DLB         EM61SH         EM61SH         EM61SH            user
+KV4RH          EM94RG         EM94RG         EM94RG            user
+KW4J           EM63NJ         EM63NJ         EM63NJ            geocode
+LA3LUA         JO48HI         Not Found      JO48HI            user
+LA6YJA         JO49UB         JO49UB         JO49UB            user
+LU1BR          GF05TJ         GF05TJ         GF05TJ            user
+LU1MPK         FF57OB         FF57NC         FF57NC         *  user
+LU2VN          FF75QQ         FE48IU         No grid        +  dxcc
+LU3CM          GF05SJ         GF05SJ         GF05SJ            user
+LU3DAK         GF05RM         GF05SM         GF05SM         *  user
+LU4ECN         GF12FB         GF12FB         GF12FB            user
+LU7DSY         FF81DG         FF81UG         FF81UG         *  grid
+LX1MGG         JN39BN         No grid        JN39BN            grid
+LY1CZ          KO14WV         KO14WV         KO14XV         +  user
+LY2FN          KO15KG         KO14XV         KO14XV         *  dxcc
+LZ5EO          KN21IN         Not Found      KN21IN            user
+M0DBO          IO91VF         IO91VF         IO91VF            grid
+M0EDY          IO80HP         IO80AS         IO80AS         *  user
+M0KWR          IO92TN         IO92UL         IO92UL         *  user
+M0SAS          IO82VE         JN75OC         IO82DE         +  user
+M0TNG          IO93GN         IO93EM         IO93EM         *  user
+M0TQR          AA00AA         Not Found      IO80FL         +  user
+M0WAY          IO82XO         IO82XO         IO82XO            geocode
+M0WMX          IO93GA         IO92XX         IO92XX         *  user
+M0YOL          JO01BM         Not Found      JO01BM            user
+M0ZRQ          JO03CE         Not Found      JO03CE            user
+M3OPG          IO81SK         IO81SK         IO81SK            grid
+M5LRO          JO01GI         JO01GI         JO01GI            user
+M5PLY          IO70WJ         IO70WJ         IO70WJ            user
+MI6GNP         IO65IA         Not Found      IO65IA            user
+MI6NUM         IO64VR         Not Found      IO64VR            user
+MJ0LEL         IN89WE         Not Found      IN89WF         +  dxcc
+MM0WAX         IO76LF         IO76LF         IO76LF            user
+MM3UOR         IO75OP         IO75OP         IO75OP            user
+MM3WYM         IO75OW         Not Found      IO75OW            user
+MM6HVT         IO86BA         Not Found      IO86BA            user
+MW0SGR         IO81JM         IO81JM         IO81JM            user
+N0EO           EN36VQ         EN36VQ         EN36VQ            user
+N0HIU          EM29NB         EM29NB         EM29NB            geocode
+N1CC           EM22GD         EM22GD         EM22GD            user
+N1HNY          FN54FM         FN54FM         FN54FM            user
+N2BFD          EM86EI         EM86EK         EM86EK         *  user
+N2RSE          FN22BA         FN22BA         FN22BC         +  geocode
+N3AAZ          FM19XB         FM19XB         FM19XB            geocode
+N3BSQ          EN90XH         EN90XH         EN90XH            user
+N4CPT          EL98OL         EL98OL         EL98OL            user
+N4N            EM17IQ         Not Found      EL98ET         +  dxcc
+N4TEX          EM74OW         EM74PU         EM74OW            user
+N5DOA          EM36LJ         EM36LJ         EM36LJ            geocode
+N7IY           CN84KB         CN84KB         CN84KB            geocode
+N8IFQ          EL96WK         EL96WK         EL96WK            user
+N8XAH          EN65KT         EN65LR         EN65KT            user
+N9RWC          EN52UD         EN52UD         EN52UD            geocode
+N9VMO          EN70HF         EN70HF         EN70HF            user
+ND3U           FN20FH         FN20FH         FN20FH            user
+NK5G           EM20FH         EM20GH         EM20GH         *  user
+NP4RA          FK68VK         FK68WJ         FK68VK            zip
+NW4KU          EM66UG         EM66UG         EM66UG            user
+OE1TRB         JN88EF         JN88EF         JN88EF            geocode
+OE4HPC         JN87ES         JN87ES         JN87ES            user
+OE4JHW         JN87EU         JN87EU         JN87EU            user
+OE5FGO         JN78DH         JN78DH         JN78DH            user
+OE5XEM         JN78DG         JN78DG         JN78DG            user
+OE6DRG         JN77JE         JN77JE         JN77JE            user
+OE6HTG         JN77VH         JN77VH         JN77VH            user
+OE6JFG         JN77SN         JN77SN         JN77SN            user
+OE6KLG         JN77UA         JN77UA         JN77UA            user
+OE9PCJ         JN47TG         JN47TG         JN47TG            user
+OH1IM          KP01UE         Not Found      KP01UE            user
+OH2KFO         KP20MH         KP20MH         KP20MH            user
+OH2LBS         KP20NE         KP20NE         KP20NE            user
+OH3RT          KP21VA         Not Found      KP21VA            user
+OH5GJZ         KP30NN         KP30NN         KP30NN            grid
+OH6GAZ         KP22OG         No grid        KP22OG            user
+OH6XB          KP22VG         KP22VG         KP22VG            user
+OK1KAO         JO60TM         JO60TM         JO60TM            user
+OK1KM          JO60GH         JO60GH         JO60GH            user
+OK1MLX         JO80BJ         JO80BJ         JO80BJ            user
+OK1PJB         JO70EA         JO70EA         JO70EA            user
+OK1UME         JO80CH         JO80CG         JO80CG         *  user
+OK1VKQ         JO60JF         JO60JF         JO60JF            user
+OK1WCF         JO70WN         JO80BJ         JO80BJ         *  grid
+OK1XC          JN79IF         JN79IF         JN79IF            user
+OK1ZOR         JO70GH         JN79IU         JN79IU         *  dxcc
+OK2APY         JN89HF         JN89HF         JN89HF            user
+OK2BPU         JN89NJ         JN89NI         JN89NI         *  user
+OK2JNB         JN89HE         JN89HE         JN89HE            user
+OK2RVM         JN89BI         JN89AI         JN89AI         *  user
+OK4RQ          JN69QS         JN69QS         JN69QS            user
+OM2ABL         JN88NT         JN88NT         JN88NT            user
+OM3CUP         JN88OU         Not Found      JN88OU            user
+OM3DM          JN98QN         JN98QN         JN34UQ         +  user
+OM3KWT         JN97BX         JN97BX         JN97BX            user
+OM3PR          JN87XS         JN87XS         JN87XS            user
+OM5MZ          JN97BW         JN97BW         JN97BW            user
+OM8GT          KN08OR         KN08PR         KN08PR         *  user
+ON1AEY         JO11TA         JO11TA         JO11TA            user
+ON2AFC         JO21FA         JO21FA         JO21FA            user
+ON2MD          JO10TV         JO10TV         JO10TV            user
+ON3DIL         JO20BK         JO20BK         JO20BK            user
+ON3DWG         JO10UU         JO10UU         JO10UU            user
+ON4BWI         JH21HI         JO21KI         JO21KI         *  grid
+ON4HTI         JO11KF         JO11KF         JO11KF            user
+ON4KBJ         JO10QM         JO10QM         JO10QM            user
+ON4KCG         JO20VP         No grid        JO20VP            grid
+ON4KEB         JO20UO         JO20UO         JO20UO            user
+ON4MRI         JO20JK         JO20JK         JO20JK            user
+ON6NL          JO21UE         JO21UE         JO21UE            user
+ON6SX          JO20HV         JO20HV         JO20HV            user
+ON7BL          JO10VJ         JO10VJ         JO10VJ            user
+ON7MV          JO11OE         No grid        JO11OE            user
+ON7VK          JO20GI         Not Found      No grid        +  user
+ON8TC          JO11HC         Not Found      JO11HC            user
+ON8VE          JO20LW         Not Found      No grid        +  dxcc
+OX3DB          GP44DE         GP44DE         GP44DE            user
+OZ1IHB         Not Found      Not Found      JO65JQ         +  Not Found
+PA0FNB         JO22WJ         JO22WJ         JO22WJ            geocode
+PA0LUX         JO22JI         JO22JI         JO22JI            user
+PA1HCB         JO33HG         JO33HG         JO33HG            user
+PA2PB          JO22OQ         JO22OQ         JO22OQ            user
+PA3CAU         JO21KO         JO21KO         JO21KO            user
+PA3DBS         JO21DM         JO21DM         JO21DM            user
+PA3EPP         JO32JT         JO32HW         JO32HW         *  user
+PA3EWP         JO21GU         JO21GU         JO21GU            user
+PA3K           JO31CI         Not Found      JO31CI            user
+PA4ARP         JO21KN         JO21KN         JO21KN            grid
+PA4WIM         AA00AA         JO22PR         JO22PR         *  grid
+PA5RH          JO22KS         JO22KS         JO22KS            user
+PA800GTB       JO21KQ         Not Found      JO21KQ            user
+PB0P           JO21OJ         JO21OJ         JO21OJ            user
+PD0MDA         JO22GA         JO21HS         JO21HS         *  dxcc
+PD1SA          JO21KP         JO21KP         JO21KP            user
+PD2OOR         JO21BT         JO21BT         JO21BT            user
+PD7AD          JO21KP         JO21KP         JO21KP            user
+PD7Z           JO21EV         Not Found      JO21EV            user
+PE1CDE/A       JO21LQ         JO21LQ         JO21LQ            user
+PP1ER          GG99US         GG99UV         GG99UV         *  user
+PU1SGT         GG87VE         GG87VD         GG87VD         *  user
+PU1WDX         GH49EQ         Not Found      GG87LE         +  dxcc
+PU2PZZ         GG76KN         GG76KN         GG76KN            user
+PU2TRX         GG66OJ         GG66OJ         GG66OJ            user
+PU2TXZ         GG57KP         GG57LQ         GG57LQ         *  user
+PV8ADI         FJ92PT         FJ92PT         FJ92PT            user
+PY1SRG         Not Found      No grid        GG87GN         +  Not Found
+PY2DN          GG66SJ         GG66SJ         GG66SJ            user
+PY3AGI         GG30BH         GG30BH         GG30BH            user
+PY3CJS         GG30CG         GG30CG         GG30CG            user
+PZ5RA          GJ25JT         GJ25JT         GJ25JT            geocode
+R1AY           KP50BS         KP50DL         KP50DL         *  user
+R3FO           KO86RI         KO86SI         KO86SI         *  user
+R3PM           KO85SS         Not Found      KO84PC         +  dxcc
+R5ACQ          KO85RQ         KO85RQ         KO85RQ            user
+R6DL           KO85SS         Not Found      LN04NX         +  dxcc
+R7AZ           KN93WL         KN93WM         KN93WM         *  user
+R7BX           KN94BN         KN94BN         KN94BN            user
+R7DA           KN95LC         Not Found      KN95LC            user
+RA1QIB         KO99WF         KO99WF         KO99WF            user
+RA1TCJ         KO57QU         KO57QU         KO57QU            user
+RA1TV          KO59UD         KO59UC         KO59UC         *  user
+RA2FB          KO05WB         No grid        KO05WB            user
+RA2FIA         KO04FR         No grid        KO04FR            user
+RA3DRI         KO86PJ         KO86PJ         KO86PJ            user
+RA4HL          LO43FD         LO43FE         LO43FE         *  grid
+RA4HLK         LO53OV         No grid        LO53OV            user
+RA6ASU         KN95MT         KN95MT         KN95MT            user
+RC3EPC         KO82AX         KO82AX         KO82AX            user
+RD22DD         KO49SW         Not Found      KO49SW            user
+RG61PP         KO75MN         Not Found      KO75LN         +  user
+RG80KEDR       OO62MG         Not Found      KO75MM         +  dxcc
+RN1NS          KO85SS         KP71ES         No grid        +  dxcc
+RN3DD          KO86VA         KO86VA         KO86VA            user
+RN6HGN         KO85SS         LN14NB         LN14NB         *  dxcc
+RU3FA          KO84RV         KO84RV         KO84RV            user
+RU3XB          KO84DM         KO84DM         KO84DM            user
+RU3XJ          KO84DL         KO84DM         KO84DM         *  user
+RV3DCM         KO86OA         KO86MD         KO86MD         *  user
+RV6CX          KO85SS         KN93VN         KN93VN         *  dxcc
+RW1CL          KO59BN         KO59BN         KO59BN            user
+RW3BO          KO85SS         No grid        KO86UU         +  dxcc
+RX6DY          KN95LB         KN95LA         KN95LA         *  user
+RY7A           KN95LO         KN95LO         KN95LO            user
+RZ3DC          KO85XQ         KO85XR         KO85XR         *  grid
+RZ3DZ          KO85UN         KO85UN         KO85UN            user
+RZ6HNP         LN14MA         Not Found      LN14MA            user
+S56VJM         JN75HS         JN75HS         JN75HS            user
+SE6Y           JO57XT         JO57XT         JO57XT            geocode
+SM7HZK         JO76EO         JO76HX         JO76HX         *  user
+SM7OYP         JO66JA         EM99QT         EM99QT         *  user
+SP1DTG         JO73JN         No grid        JO73JN            user
+SP1MHZ         JO84CE         JO84CE         JO84CE            user
+SP1TMH         JO73FF         Not Found      JO73FF            user
+SP2BDR         JO83UA         JO83UA         JO83UA            user
+SP3FCO         JO92DF         JO92DF         JO92DF            user
+SP3QYJ         JO81KP         Not Found      JO81KP            user
+SP3SLO         JO92DF         JO92DE         JO92DE         *  grid
+SP3UIW         JO71UT         JO71UT         JO71UT            user
+SP4CJA         KO04HD         KO04HD         KO04HD            user
+SP5GRU         KO03KA         KO03KA         KO03KA            user
+SP5NHK         JO92UV         KO02MM         KO02MM         *  user
+SP8QC          KO10BM         Not Found      KO10BM            user
+SQ2IIV         JO94HG         JO94HG         JO94HG            user
+SQ8OAU         KN09WN         KN09WN         KN09WN            user
+SV2DFK         KN10LO         KN10LO         KN10LO            user
+SV2HTI         KN10LO         Not Found      KN10LO            user
+SV2HYB         KN10LP         KN10LP         KN10LP            user
+SV2JU          KN10MN         KN10MN         KN10LP         +  user
+SV2QQR         KN10LN         Not Found      KN10LN            user
+SV3ICL         KM18BF         KM18BF         KM18BF            user
+SV5AZK         KM46CJ         KM46CK         KM46CK         *  user
+SV6DBL         KM09KO         KM09KP         KM09KP         *  user
+SV7MTO/1       KM18VA         KM18VA         KN10UR         +  user
+TA1GO          KN41KB         KN40KX         KN40KX         *  user
+TF2MSN         HP84XH         HP84XH         HP84XH            user
+TF3FIN         HP94BD         HP94BD         HP94BD            user
+TF3MHN         HP94DD         Not Found      HP94DD            user
+TF5B           IP05WQ         IP05WQ         IP05WQ            user
+TF8HP          Not Found      Not Found      No grid        +  Not Found
+TG9AHM         EK44RO         EK09KE         EK09KE         *  user
+TI2AIM         EJ79WV         EJ79XV         EJ79XV         *  geocode
+TI2CCC         EK70WF         DL91ED         DL91ED         *  dxcc
+TI2HMJ         EJ79VV         EJ79XW         EJ79XW         *  user
+TI2JCY         EJ79WW         FF46OL         FF46OL         *  user
+TI3EDM         EJ89AU         EJ89DS         EJ89DS         *  user
+UA0JL/6        KN84UR         PO30SG         KN84UR            user
+UA1TAT         KO85SS         KO58PM         KO58PM         *  user
+UA3DNK         KO85IM         KO85IM         KO85IM            user
+UA3GIE         KO92PN         KO92SO         KO92SO         *  user
+UA6AVA         KN96DQ         KN96DQ         KN96DQ            user
+UA6BCN         KO85SS         KN95QJ         KN95QJ         *  dxcc
+UA6CDM         KN96LB         KN96LB         KN96LB            user
+UA6EAS         KO85SS         No grid        LN14AF         +  dxcc
+UA6XES         LN23AS         LN13XS         LN23AS            user
+UR0MR          KN59RB         KN98FV         KN98FV         *  dxcc
+UR3CFC         KN59RB         KN58CS         KN58CS         *  dxcc
+UR3CTB         KN59RS         KN59RR         KN59RR         *  user
+UR5CN          KN59WM         KN59WM         KN59WM            user
+UR5WCA         KN29AT         KN29AT         KN29AT            user
+UR5ZW          KN58AA         KN58KB         KN58KB         *  user
+UR8GM          KN66RT         KN66RT         KN66RT            user
+UR9IR          KN98BG         No grid        KN98BG            user
+US0MM          KN98QN         KN98PN         KN98PN         *  user
+US1CR          KN59PK         KN59PK         KN59PK            user
+US5IMX         KN87UW         KN87VX         KN87VX         *  user
+US5QGL         KN86JS         KN86JS         KN86JS            user
+US7KC          KO21WI         KO21WI         KO21WI            user
+US8UW          KN59FR         Not Found      KN59FR            user
+UT3GP          KN59RB         KN66HQ         KN66HQ         *  dxcc
+UT4EO          KN78GP         KN78HM         IN52PF         +  grid
+UT5EOU         KN78MM         KN78ML         KN78ML         *  user
+UT8IU          KN87UC         KN87UC         KN87UC            user
+UX4LX          KN89EV         KN89EV         KN89EW         +  user
+UX7QV          KN87DL         No grid        KN87DL            user
+UY2IS          KN88XB         Not Found      KN88XB            user
+UY5IC          KN87VW         KN88UB         KN88UB         *  user
+UY9IF          KN88SR         KN88TR         KN88TR         *  user
+VE2AUW         FN25CN         FN25DN         FN25CN            geocode
+VE3FGU         FN04GF         FN04GF         FN04GF            geocode
+VE3KQK         EN92JS         EN92KS         EN92KS         *  none
+VE3RSI         EN82TW         EN82TX         EN82TX         *  user
+VE3ZDB         EN89SK         EN89SK         EN89SK            user
+VE9UN          FN65QW         FN65QW         FN65QW            user
+VK3BM          QF22PA         QF22PA         QF22PA            user
+VO1SO          GN37AF         GN37AF         GN37AE         +  user
+VO1TX          GO21FI         GO21FJ         GO21FI            user
+VO2NS          FO62NW         FO62NW         FO62NW            user
+W0/G4KHG/M     Not Found      Not Found      DM77BL         +  Not Found
+W1AW/0         FN31PR         FN31PR         EM37QQ         +  user
+W1AW/4         FN31PR         FN31PR         EM37QQ         +  user
+W1AW/5         FN31PR         FN31PR         No grid        +  user
+W3AAX          FM19RB         FM19RB         FM19RB            geocode
+W3OFD          FN10XT         FN10XT         FN10XT            user
+W3R            EN90VE         Not Found      EN90VE            user
+W4FGA          EM83AH         EM83AE         EM83AE         *  user
+W5WVI          DM43CK         DM43CK         DM43CK            geocode
+W5ZIT          EM13UD         EM13TD         EM13TD         *  user
+W7ORC          DN08EI         DN08FJ         DN08EI            user
+W8HAW          EM99BK         EM99BK         EM99BK            geocode
+W8MLS          FM19BG         FM19BG         FM19BG            user
+W9SMR          EL87SF         EL87SF         EL87SF            user
+W9VHL          EM48TN         EM48TN         EM48TN            geocode
+WA2TGE         EM95KA         EM95KA         EM95KA            user
+WA3EOP         FM19DP         FM19DP         FM19DP            user
+WA4RQG         EM64MO         EM64LO         EM64MO            geocode
+WA5AMM         EM84RT         EM84RT         EM84RT            user
+WA5PQL         EM12OJ         EM12OJ         EM12OJ            geocode
+WA6OSX         CM98IG         CM98IG         CM98IG            geocode
+WA8LBZ         EN80NA         EN80NA         EN80NA            geocode
+WA9CAP         EN51VV         EN51VV         EN51VV            geocode
+WB0RUR         EM26WB         EM26WB         EM26WB            user
+WB2VYK         EL98AW         EL98AW         EL98BW         +  geocode
+WC5W           EN60XX         EN60XX         EN60XX            geocode
+WD8FM          EN82HQ         EN82HQ         EN82HQ            user
+WG3R/0         EN30SA         EN30SA         EN30SA            geocode
+WT6X           CM97CP         CM97CP         CM97CP            user
+WU3H           DM78TU         EM15GQ         DM78TU            user
+XE1JLO         EK09KJ         DL83RP         DL83RP         *  user
+XE1JP          EK09VA         EK09VA         EK09VA            user
+XE2MX          DM11QU         DM11QU         DM11QU            user
+XE2OCM         DL95UP         DL95UP         DL95UP            user
+XQ3UP          FF46QN         Not Found      FF46QN            user
+YL3BF          KO06MM         KO06MM         KO06MM            user
+YO4FKO         KN35XG         KN35XG         KN35XG            grid
+YO5OO          KN16RS         KN16RR         KN16RS            user
+YO7CFD         KN14VH         KN14VH         KN14VH            user
+YO8RSL         KN37SD         KN37SD         KN37SD            user
+YT2T           KN13AG         KN03WH         KN13AG            user
+YT7TU          KN04HU         KN04HU         KN04HU            user
+YU1AB          KN04CI         No grid        KN04CI            user
+YU2DJK         KN04FS         KN04FS         KN04FS            user
+YV4DHS         FJ69CC         FK60AF         FK60AF         *  dxcc
+YV4FUE         FK60EG         FK60IF         FK60IF         *  user
+YV4OW          FK80CX         FK80CX         FK80CX            user
+YV5CWM         FK60LI         Not Found      FK60LI            user
+YV5EPM         FK60OM         FK60OM         FK60OM            user
+YV5JGO         FK60NL         FK60NL         FK60NL            user
+YY4CEG         FK50XK         Not Found      FK50XK            user
+YY5FRD         FK60LL         FK60NL         FK60LL            user
+YY5PCA         FJ69CC         FK60MM         FK60MM         *  dxcc
+YY5SKA         FK60NO         Not Found      FK60NO            user
+YY7PMG         FK81BB         IL18KC         IL18KC         *  user
+YY8HBO         FJ89JR         FJ89JR         FJ89JR            user
+ZB3R           IM76HD         IM76HD         IM76HD            user
+ZR6AOC         KG33XU         KG33XU         KG33XU            user
+ZR6DX          KG33XV         KG33XV         KG33XV            user
+ZS3FS          KG21IF         Not Found      KG21IF            user
+ZS6WR          KG33XU         KG33WU         KG33WU         *  user
+ZX14DF         GH49EQ         Not Found      GH64BE         +  dxcc
+ZX14PE         GH49EQ         Not Found      GH64CE         +  dxcc
+ZZ80RN         GH49EQ         Not Found      No grid        +  dxcc
+ZZ80SP         GH49EQ         Not Found      No grid        +  dxcc
