@@ -1,3 +1,145 @@
+GENERAL COPYRIGHT
+-----------------
+Copyright (C) 2014  Tom Cloud
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+See file LICENSE which should have been include w/ this software for a
+  copy of the license as well as othe copyright and license information.
+
+INCLUDED AND DERIVED WORK
+------------
+>>>>>>>>>>>>
+Credit Martin Ewing, AA6E whose works certain labeling routines are
+  derived.  Following is copyright/license information originally included
+  in that code.
+
+File: qrz.py
+Version: 0.12
+
+Report generator for QRZ.com XML database, featuring label printing.
+Copyright (c) 2008 Martin Ewing
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  
+02110-1301, USA.
+
+Contact ewing @@ alum.mit.edu or c/o San Pasqual Consulting, 28
+Wood Road, Branford CT 06405, USA.
+
+qrz.py is a Python program for examining and printing data from
+the QRZ.com amateur radio callsign database.  Various output options
+are provided, including printing labels, 30/page.
+This program operates from the command line only.  Some aspects
+are Unix/Linux - specific.
+
+Future:   implement bio/photo output methods; 
+          nicely formatted full-record output.
+
+Developed using Python 2.5.1 on Fedora 8 Linux
+
+Changes:
+v 0.11:  correct -s processing (print with .rstrip(), not .strip())
+v 0.12:  provide sitecustomize.py to allow for some non-ASCII characters:
+      import sys
+      sys.setdefaultencoding('iso-8859-1')
+   This requires distributing a zip or tgz file.
+<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>>
+Credit Jeffrey M. Laughlin, N1YWB and Fabian Kurz, DJ1YFK for cty.dat file
+  reader included in its unchanged form.  Following is copyright/license
+  information originally included in that code.
+
+cty.dat file reader and lookup
+
+Copyright 2014 by Jeffrey M. Laughlin
+Copyright (C) 2005-2009 Fabian Kurz, DJ1YFK
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Ported from yfklog
+
+Alpha quality, largely untested; please help!
+<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>
+Credit Jérôme Renard for bearing & distance routines included in their unchanged
+  forms.  The code carries neither copyright nor license information.  I am
+  attaching presumed information here.
+
+Copyright (C) Jérôme Renard 2013
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+<<<<<<<<<<<<<<<<<<<
+
+>>>>>>>>>>>>>>>>>>
+Credit Yifei Jiang whose works certain Google Maps routines are
+  derived.  The code carries not copyright information.  I am attaching
+  copyright and included license information here.
+
+Copyright (C) 2010 Yifei Jiang
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+<<<<<<<<<<<<<<<<<<<
+
+LICENSE
+-------
 GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
