@@ -131,6 +131,7 @@ except getopt.GetoptError:
 nskip = 0
 input_file = ''
 cqrl_db = None
+adif_out_path = FPATH+'output/'
 label_type = None
 
 for x in myopts:            # Check user-supplied options.
