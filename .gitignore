@@ -61,5 +61,5 @@ target/
 .hamsalad*
 
 # KML and ADIF files
-.kml
-.adif
+*.kml
+*.adif
