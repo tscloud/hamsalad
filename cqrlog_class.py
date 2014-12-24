@@ -55,7 +55,7 @@
 #       sys.setdefaultencoding('iso-8859-1')
 #    This requires distributing a zip or tgz file.
 """
-import sys, datetime, decimal, re, platform, sqlite3
+import sys, datetime, decimal, re, platform, sqlite3, ConfigParser
 if platform.system() == 'Windows':
     import pymysql
 else:
@@ -72,6 +72,14 @@ class Cqrlog(object):
         connect to DB and open ADIF file for write
         """
         print >>sys.stderr, 'in Cqrlog'
+
+        ###
+        # read config file
+        ###
+        config = ConfigParser.RawConfigParser()
+        ### I think this is weird -- have to do this to make the options not convert to lowercase
+        config.optionxform = str
+        config.read('.config_salad.cfg')
 
         # set up some const. stuff
         self.FPATH_ADIF = fpath_name + 'out.adif'
@@ -140,26 +148,38 @@ class Cqrlog(object):
         # set up DB connection
         # TEST
         try:
-            if platform.system() == 'Windows':
-                # self._db_conn = pymysql.connect(host="192.168.1.7", port=64000, db="cqrlog003")
-                # self._db_conn = sqlite3.connect('data/cqrlog_test')
-                self._db_conn = sqlite3.connect('data/cqrlog_test', detect_types=sqlite3.PARSE_DECLTYPES|sqlite3.PARSE_COLNAMES)
+            l_dbtype = config.get('ConnInfo', 'dbtype')
+            l_dbloc = config.get('ConnInfo', 'dbloc')
+            l_dbport = config.get('ConnInfo', 'dbport')
+            l_dbname = config.get('ConnInfo', 'dbname')
+
+            if l_dbtype == 'sqlite':
+                self._db_conn = sqlite3.connect(l_dbloc, detect_types=sqlite3.PARSE_DECLTYPES|sqlite3.PARSE_COLNAMES)
+            elif l_dbtype == 'mysql':
+                if platform.system() == 'Windows':
+                    self._db_conn = pymysql.connect(host=l_dbloc, port=l_dbport, db=l_dbname)
+                else:
+                    self._db_conn = MySQLdb.connect(host=l_dbloc, port=l_dbport, db=l_dbname)
             else:
-                self._db_conn = MySQLdb.connect(host="192.168.1.13", port=64000, db="cqrlog003")
-                # self._db_conn = sqlite3.connect('data/cqrlog_test')
+                raise StandardError('Unrecognized DB type')
 
             self._db_cur = self._db_conn.cursor()
             self.working = True
-        except:
-            print >>sys.stderr, '** Can\'t connect to cqrlog'
+        except StandardError as e:
+            print >>sys.stderr, '** Can\'t connect to cqrlog **: %s' % e.message
             self.working = False
 
         # set up the file for output and write the static stuff
         try:
             self.file_out = open(self.FPATH_ADIF, 'w+')
-        except:
-            print >>sys.stderr, '** Can\'t write to %s' % self.FPATH_ADIF
+        except (OSError, IOError) as e:
+            print >>sys.stderr, '** Can\'t write to %s **: %s' % (self.FPATH_ADIF, e.message)
             sys.exit()
+
+        # set the query type - see config file for explanation of types
+        self.query_type = config.get('CallList', 'type')
+        # and DB type to be used further downstream
+        self.db_type = l_dbtype
 
     @staticmethod
     def oddball(l_tag, l_q_val):
@@ -231,18 +251,27 @@ class Cqrlog(object):
         """
         load list that will be used to get addresses
         """
+        print >>sys.stderr, 'in make_call_list...'
         # use table cqrlog_main?
-        sql_sd = "SELECT distinct callsign as call_s FROM cqrlog_main WHERE (qsl_s = 'SD')"
-        sql_smd = "SELECT distinct qsl_via as call_s FROM cqrlog_main WHERE (qsl_s = 'SMD')"
-        sql_ord = " order by call_s"
-        # self._db_cur.execute(sql_sd + " union " + sql_smd + sql_ord)
-        self._db_cur.execute("SELECT distinct callsign FROM cqrlog_main")
-        # self._db_cur.execute("SELECT distinct callsign FROM cqrlog_main where qsl_s='E' and lotw_qslr='' and eqsl_qsl_rcvd=''")
+        if self.query_type == '1':
+            sql_sd = "SELECT distinct callsign as call_s FROM cqrlog_main WHERE (qsl_s = 'SD')"
+            sql_smd = "SELECT distinct qsl_via as call_s FROM cqrlog_main WHERE (qsl_s = 'SMD')"
+            sql_ord = " order by call_s"
+            self._db_cur.execute(sql_sd + " union " + sql_smd + sql_ord)
+        elif self.query_type == '2':
+            self._db_cur.execute("SELECT distinct callsign FROM cqrlog_main where qsl_s='E' and lotw_qslr='' and eqsl_qsl_rcvd=''")
+        elif self.query_type == '3':
+            self._db_cur.execute("SELECT distinct callsign FROM cqrlog_main")
+        else:
+            raise StandardError('Unrecognized query type')
+
         results = self._db_cur.fetchall()
 
         call_list = []
         for row in results:
             call_list.append(row[0])
+        
+        print >>sys.stderr, 'leaving make_call_list...'
 
         return call_list
 
@@ -250,12 +279,13 @@ class Cqrlog(object):
         """
         get qso data for a single call to be put on label
         """
-        # MySQL
-        # sql_qso = """SELECT callsign, qsodate, time_on, freq, rst_s, mode, pwr, loc, band, qsl_s, concat(qsl_r,lotw_qslr,eqsl_qsl_rcvd) as qslr
-        # sqlite3
-        sql_qso = """SELECT callsign, qsodate, time_on, freq, rst_s, mode, pwr, loc, band, qsl_s, qsl_r||lotw_qslr||eqsl_qsl_rcvd as qslr
-            FROM cqrlog_main
-            WHERE callsign = '%s'""" % call.upper()
+        if self.db_type == 'mysql':
+            # MySQL
+            sql_qso = 'SELECT callsign, qsodate, time_on, freq, rst_s, mode, pwr, loc, band, qsl_s, concat(qsl_r,lotw_qslr,eqsl_qsl_rcvd) as qslr'
+        elif self.db_type == 'sqlite':
+            # sqlite3
+            sql_qso = 'SELECT callsign, qsodate, time_on, freq, rst_s, mode, pwr, loc, band, qsl_s, qsl_r||lotw_qslr||eqsl_qsl_rcvd as qslr'
+        sql_qso = sql_qso + "FROM cqrlog_main WHERE callsign = '%s'" % call.upper()
         self._db_cur.execute(sql_qso)
         results = self._db_cur.fetchall()
         # want column names
@@ -278,6 +308,9 @@ class Cqrlog(object):
         """
         # the Big Select to get all the data needed to build requested ADIF
         # NOTE: only works w/ MySQL, not sqlite3
+        if self.db_type != 'mysql':
+            raise StandardError('Cannot produce ADIF if DB type not MySQL')
+
         sql_adif = """SELECT a.qsodate, a.time_on, a.time_off, a.callsign, a.mode, a.freq, a.band, a.rst_s, a.rst_r, a.name, a.qth, a.qsl_via, a.iota, a.loc, a.my_loc, a.award, a.pwr, b.dxcc_ref, a.adif, a.remarks, c.longremarks, a.itu, a.waz, a.state, a.county, a.qsl_s, a.qsl_r, a.profile, a.lotw_qsls, a.lotw_qslsdate, a.lotw_qslr, a.lotw_qslrdate, a.cont, a.qsls_date, a.qslr_date, a.eqsl_qsl_sent, a.eqsl_qslsdate, a.eqsl_qsl_rcvd, a.eqsl_qslrdate
             FROM
             cqrlog_main as a
@@ -287,24 +320,11 @@ class Cqrlog(object):
 
         c_list = [c.upper() for c in c_list] # make call list upper
 
-        #>>> one why to to it...
-        #sql_calllist = ''
-        #for call in c_list:
-        #    sql_calllist += ("'" + call .upper() + "', ")
-        #sql_calllist = sql_calllist[:-2]
-
-        #parameters = (sql_calllist)
-        #self._db_cur.execute(sql_adif, parameters)
-
-        # >>> ...another way to do it
-        # in_p = ', '.join(map(lambda x: '%s', c_list))
         in_p = "','".join(c_list)
         in_p = "'"+in_p+"'"
         print >>sys.stderr, 'call list and commas: %s' % in_p
         sql_adif = sql_adif % in_p
         self._db_cur.execute(sql_adif)
-        # self._db_cur.execute(sql_adif, c_list)
-        # <<<
 
         results = self._db_cur.fetchall()
         # print >>sys.stderr, 'SQL: %s\nc_list: %s' % (sql_adif, c_list)

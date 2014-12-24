@@ -109,7 +109,7 @@ class KmlLog(object):
         config = ConfigParser.RawConfigParser()
         ### I think this is weird -- have to do this to make the options not convert to lowercase
         config.optionxform = str
-        config.read('.config_kml.cfg')
+        config.read('.config_salad.cfg')
         # get oufile name
         self.outfile = config.get('Files', 'outfile')
 

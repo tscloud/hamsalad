@@ -122,7 +122,7 @@ print >>sys.stderr, 'This is %s %s from KB1ZZV.' % (IDENT, VERS)
 print >>sys.stderr, 'Thanks to Martin Ewing, AA6E & Fabian Kurz, DJ1YFK & Jeff Laughlin, N1YWB & Jerome Renard\n'
 
 try:
-    myopts, call_list = getopt.getopt(sys.argv[1:], 'i:t:hs:zlnpfe')
+    myopts, call_list = getopt.getopt(sys.argv[1:], 'i:t:hs:zlnpfeg')
 except getopt.GetoptError:
     print >>sys.stderr, "Invalid command arguments:", sys.argv[1:]
     sys.exit()
@@ -154,8 +154,9 @@ Optionally Required Options
 -l: use 3x10 labels - valid for address, qso list
 -n: use 2x10 labels - valid for address, qso list
 -p: simple - valid for address, qso list
--f: file (destination currently hardcoded)  - valid for ADIF output
+-f: file (destination currently hardcoded) - valid for ADIF output
 -e: post output to eQSL.cc - valid for ADIF output
+-g: instead of KML, make HTML file to make Google Map - valid for KML output
 
 Output is ASCII to stdout. -l format can be piped as follows:
 ... | mpage -o -m20l30t10r30b -L60 -W120 -1P -  (for HP LJ1200 printer)
@@ -180,6 +181,8 @@ User must have a QRZ.com XML access account. (http://online.qrz.com)
         adif_dest = 'file'   # dump all data in raw format (1 key per line)
     elif x[0] == '-e':
         adif_dest = 'eqsl'   # dump all data in raw format (1 key per line)
+    elif x[0] == '-g':
+        kml_type = 'google'   # make Goggle map, if not set => make KML file
     elif x[0] == '-z':
         # remove the old .qrzpy file, if it exists.
         qrz = Qrz(AGENT, FPATH)
@@ -247,8 +250,8 @@ if call_list == []:
     try:
         cqrl_db = Cqrlog(IDENT, VERS, FPATH)
         call_list = cqrl_db.make_call_list()
-    except:
-        print >>sys.stderr, 'Error getting call from cqrlog'
+    except StandardError as e:
+        print >>sys.stderr, 'Error getting call from cqrlog: %s' % e.message
 
 if call_list == []:
     print >>sys.stderr, 'Not able to build call list - exiting...'
@@ -299,7 +302,11 @@ elif output_type == 'd':
         if not cqrl_db.working:
             print >>sys.stderr, 'Could not connect to cqrlog DB...exiting'
             sys.exit()
-    qsos = cqrl_db.export_adif(call_list)
+    try:
+        qsos = cqrl_db.export_adif(call_list)
+    except StandardError as e:
+        print >>sys.stderr, 'Error in cqrlog: %s' % e.message
+        sys.exit()
     adif_string = cqrl_db.wrtie_adif_file(qsos, adif_dest)
     # ...and maybe post it to eqsl.cc
     if (adif_dest == 'eqsl') and (adif_string != ''):
@@ -310,7 +317,6 @@ elif output_type == 'd':
 elif output_type == 'c':
     for prt_call in call_list:  # print out the list then leave
         print >>sys.stderr, '%s' % (prt_call)
-    sys.exit()
 
 elif output_type == 'k':
     # we've got a call list...let's do some KMLing
@@ -325,8 +331,10 @@ elif output_type == 'k':
         #     print >>sys.stderr, 'Could not connect to cqrlog DB...exiting'
         #     sys.exit()
     # also need a KmlLog obj
-    kmllog = KmlLog(AGENT, FPATH, cqrl_db, qrz)
-    # kmllog = GMapsLog(FPATH, cqrl_db, qrz)
+    if kml_type == 'google':
+        kmllog = GMapsLog(FPATH, cqrl_db, qrz)
+    else:
+        kmllog = KmlLog(AGENT, FPATH, cqrl_db, qrz)
     kmllog.call_kml_file_making(call_list)
 
 else:
