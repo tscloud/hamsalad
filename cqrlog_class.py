@@ -82,7 +82,7 @@ class Cqrlog(object):
         config.read('.config_salad.cfg')
 
         # set up some const. stuff
-        self.FPATH_ADIF = fpath_name + 'out.adif'
+        self.FPATH_ADIF = fpath_name + config.get('Files','outfile_adif')
         self.IDENT = ident_name
         self.VERS = vers_name
 
@@ -129,7 +129,7 @@ class Cqrlog(object):
             ("<LOTW_QSLRDATE>", "lotw_qslrdate"),
             ("<CONT>", "cont"),
             ("<QSLSDATE>", "*qsls_date"),
-            ("<QSLRDATE>", "qslr_date"),
+            ("<QSLRDATE>", "*qslr_date"),
             ("<EQSL_QSL_SENT>", "eqsl_qsl_sent"),
             ("<EQSL_QSLSDATE>", "eqsl_qslsdate"),
             ("<EQSL_QSL_RCVD>", "*eqsl_qsl_rcvd"),
@@ -150,7 +150,7 @@ class Cqrlog(object):
         try:
             l_dbtype = config.get('ConnInfo', 'dbtype')
             l_dbloc = config.get('ConnInfo', 'dbloc')
-            l_dbport = config.get('ConnInfo', 'dbport')
+            l_dbport = int(config.get('ConnInfo', 'dbport'))
             l_dbname = config.get('ConnInfo', 'dbname')
 
             if l_dbtype == 'sqlite':
@@ -216,9 +216,10 @@ class Cqrlog(object):
                 if l_q_val == 'E':
                     use_val = 'Y'
             # qsls_date <QSLSDATE>
-            elif l_tag == '<QSLSDATE>':
+            elif 'DATE>' in l_tag:
                 use_val = re.sub('[-]', '', l_q_val)
-                # use_val = re.sub('[-]', '', l_q_val)
+                print >>sys.stderr, 'Date in: %s' % l_q_val
+                print >>sys.stderr, 'Date out: %s' % use_val
             # time_on time_off <TIME_ON> <TIME_OFF>
             elif '<TIME_' in l_tag:
                 use_val = re.sub('[:]', '', l_q_val)
@@ -270,7 +271,7 @@ class Cqrlog(object):
         call_list = []
         for row in results:
             call_list.append(row[0])
-        
+
         print >>sys.stderr, 'leaving make_call_list...'
 
         return call_list
@@ -285,7 +286,7 @@ class Cqrlog(object):
         elif self.db_type == 'sqlite':
             # sqlite3
             sql_qso = 'SELECT callsign, qsodate, time_on, freq, rst_s, mode, pwr, loc, band, qsl_s, qsl_r||lotw_qslr||eqsl_qsl_rcvd as qslr'
-        sql_qso = sql_qso + "FROM cqrlog_main WHERE callsign = '%s'" % call.upper()
+        sql_qso = sql_qso + " FROM cqrlog_main WHERE callsign = '%s'" % call.upper()
         self._db_cur.execute(sql_qso)
         results = self._db_cur.fetchall()
         # want column names

@@ -55,7 +55,7 @@
 #       sys.setdefaultencoding('iso-8859-1')
 #    This requires distributing a zip or tgz file.
 """
-import sys, webbrowser
+import sys, webbrowser, ConfigParser
 from kmllog_class import KmlLog
 from qrz_subclass import Qrz
 from pygmaps import maps
@@ -64,8 +64,6 @@ class GMapsLog(KmlLog):
     """
     This class makes HTML files for google maps
     """
-    HOME_CALL = 'kb1zzv'
-
     def __init__(self, fpath_name=None, c=None, q=None):
         """
         This inits things
@@ -76,12 +74,28 @@ class GMapsLog(KmlLog):
         self.home_lat = None
         self.home_lon = None
 
-    def makehomepoint(self, h_call=HOME_CALL):
+        ###
+        # read config file - how to set for subclass processing?
+        #  e.g. KML vs. GMaps processing
+        ###
+        config = ConfigParser.RawConfigParser()
+        ### I think this is weird -- have to do this to make the options not convert to lowercase
+        config.optionxform = str
+        config.read('.config_salad.cfg')
+        # get oufile name
+        self.outfile = config.get('Files', 'outfile_gmaps')
+        # set HOME_CALL
+        self.home_call = config.get('Props', 'home_call')
+
+    def makehomepoint(self, h_call=None):
         """
         Make the point the represents home call - expecting a dict
          w/ the data for one point keyed on HOME_CALL <-- this is
          currently a const but should not be.
         """
+        if h_call == None:
+            h_call = self.home_call
+
         # get some data from a Qrz
         csd = self.qrz.get_data_for_call(h_call)     # csd - dict for 1 call
 

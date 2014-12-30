@@ -75,11 +75,11 @@ from label_class import Label
 #IDENT = 'qrz.py v 0.11'
 IDENT = 'hamsalad.py'
 VERS = 'v0.1'
-AGENT = 'hamsalad01'   # QRZ.com agent code (helps identify the software client
+AGENT = 'hamsalad01'  # QRZ.com agent code - helps identify the software client
                       # for QRZ's info.  Do not change unless you substantially
                       # modify this code.
 # Unix dependency
-if platform.system() == 'Windows':       # User's init file
+if platform.system() == 'Windows':
     FPATH = ''
 else:
     # FPATH = os.environ.get('HOME')+'/'
@@ -154,7 +154,7 @@ Optionally Required Options
 -l: use 3x10 labels - valid for address, qso list
 -n: use 2x10 labels - valid for address, qso list
 -p: simple - valid for address, qso list
--f: file (destination currently hardcoded) - valid for ADIF output
+-f: file - valid for ADIF output
 -e: post output to eQSL.cc - valid for ADIF output
 -g: instead of KML, make HTML file to make Google Map - valid for KML output
 
@@ -256,11 +256,12 @@ if call_list == []:
 if call_list == []:
     print >>sys.stderr, 'Not able to build call list - exiting...'
     sys.exit()
+
 # #####
 # if we got here => we should have a call list => pls proceed
 # #####
 if output_type in ['a', 'q', 'r']:
-    # we'll need a page no matter what we're after this point
+    # we'll need a page no matter what after this point
     page = None
     if output_type in ['a', 'q']:
         if label_type == '3x10':
@@ -286,6 +287,7 @@ if output_type in ['a', 'q', 'r']:
             if not cqrl_db.working:
                 print >>sys.stderr, 'Could not connect to cqrlog DB...exiting'
                 sys.exit()
+
         # also need a Label obj
         label = Label(p=page, c=cqrl_db)
         seq = label.call_qsolist_printing(call_list, label_type, nskip)
@@ -302,11 +304,15 @@ elif output_type == 'd':
         if not cqrl_db.working:
             print >>sys.stderr, 'Could not connect to cqrlog DB...exiting'
             sys.exit()
+
+    # get the data we'll need...
     try:
         qsos = cqrl_db.export_adif(call_list)
     except StandardError as e:
         print >>sys.stderr, 'Error in cqrlog: %s' % e.message
         sys.exit()
+
+    # ...and use it to write an ADIF file
     adif_string = cqrl_db.wrtie_adif_file(qsos, adif_dest)
     # ...and maybe post it to eqsl.cc
     if (adif_dest == 'eqsl') and (adif_string != ''):
@@ -315,6 +321,7 @@ elif output_type == 'd':
         eqsl.call_eqsl_post(adif_dict)
 
 elif output_type == 'c':
+    # just print the call list...
     for prt_call in call_list:  # print out the list then leave
         print >>sys.stderr, '%s' % (prt_call)
 
@@ -335,6 +342,7 @@ elif output_type == 'k':
         kmllog = GMapsLog(FPATH, cqrl_db, qrz)
     else:
         kmllog = KmlLog(AGENT, FPATH, cqrl_db, qrz)
+
     kmllog.call_kml_file_making(call_list)
 
 else:

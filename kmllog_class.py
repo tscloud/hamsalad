@@ -66,8 +66,6 @@ class KmlLog(object):
     """
     This class makes KML files
     """
-    HOME_CALL = 'kb1zzv'
-
     # FIX ME: no hardcoded file names!!!
     if platform.system() == 'Windows':
         CTYDAT_FILE = './data/cty.dat'
@@ -111,7 +109,9 @@ class KmlLog(object):
         config.optionxform = str
         config.read('.config_salad.cfg')
         # get oufile name
-        self.outfile = config.get('Files', 'outfile')
+        self.outfile = config.get('Files', 'outfile_kml')
+        # set HOME_CALL
+        self.home_call = config.get('Props', 'home_call')
 
         ###
         # Dealing w/: HTML, icons, folders, styles <-- which ones for
@@ -280,12 +280,14 @@ class KmlLog(object):
 
         return int(distance)
 
-    def makehomepoint(self, h_call=HOME_CALL):
+    def makehomepoint(self, h_call=None):
         """
         Make the point the represents home call - expecting a dict
-         w/ the data for one point keyed on HOME_CALL <-- this is
-         currently a const but should not be.
+         w/ the data for one point keyed on HOME_CALL
         """
+        if h_call == None:
+            h_call = self.home_call
+
         # get some data from a Qrz
         csd = self.qrz.get_data_for_call(h_call)     # csd - dict for 1 call
 
