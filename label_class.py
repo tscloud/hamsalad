@@ -1,59 +1,23 @@
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-#
-# File: label_class.py
-# Version: 0.13
-#
-# Report generator for QRZ.com XML database, featuring label printing
-# and other stuff
-# Original work Copyright (c) 2008 Martin Ewing
-# Additions Copyright (c) 2014 Tom Cloud
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU General Public License
-# as published by the Free Software Foundation; either version 2
-# of the License, or (at your option) any later version.
-#
+# Copyright (C) 2014  Tom Cloud
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
-# 02110-1301, USA.
-#
-# Contact ewing @@ alum.mit.edu or c/o San Pasqual Consulting, 28
-# Wood Road, Branford CT 06405, USA.
+# GNU Affero General Public License for more details.
 
-# Contact thomas.s.cloud @@ gmail.com
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Original:
-# qrz.py is a Python program for examining and printing data from
-# the QRZ.com amateur radio callsign database.  Various output options
-# are provided, including printing labels, 30/page.
-# This program operates from the command line only.  Some aspects
-# are Unix/Linux - specific.
-
-#Additions:
-# Additions include ability use 20/page labels, use cqrlog as source of
-# call list, print QSO lists and ADIF files for export to file and
-# eQSL.cc
-
-# Future:   implement bio/photo output methods;
-#           nicely formatted full-record output.
-
-# Developed using Python 2.5.1 on Fedora 8 Linux
-# Developed using Python 2.7.6 on Ubuntu 14.04 Linux
-
-# Changes:
-# v 0.11:  correct -s processing (print with .rstrip(), not .strip())
-# v 0.12:  provide sitecustomize.py to allow for some non-ASCII characters:
-# v 0.13:  addition per TC
-#       import sys
-#       sys.setdefaultencoding('iso-8859-1')
-#    This requires distributing a zip or tgz file.
+# See file LICENSE which should have been include w/ this software for a
+#   copy of the license as well as other copyright and license information.
 """
 import sys
 from fullpage_class import FullPage
