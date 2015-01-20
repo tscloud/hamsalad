@@ -125,7 +125,8 @@ class Label(object):
                     if l_type == 'simple':
                         print '\n---%s---' % call      # print a simple label
                         for lab_line in label:
-                            print lab_line
+                            # --TEST-- for codepage barf
+                            print str(lab_line)
                     else:               # 'l' or 'n' -> generate label matrix
                         #print >>sys.stderr, "Printing l_seq=%d" % l_seq
                         self.page.placeLabelPage(l_seq, label) # place label on page
