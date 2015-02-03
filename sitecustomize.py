@@ -7,6 +7,7 @@ import sys
 
 enc = 'iso-8859-1'
 # enc = 'utf-8'
+# enc = 'windows-1250'
 
 # sys.setdefaultencoding('iso-8859-1')
 sys.setdefaultencoding(enc)
