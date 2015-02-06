@@ -6,6 +6,7 @@ import sys
 # Allow for "European" characters in QRZ data
 
 enc = 'iso-8859-1'
+# enc = 'WINDOWS-1252'
 # enc = 'utf-8'
 # enc = 'windows-1250'
 

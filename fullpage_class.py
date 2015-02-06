@@ -98,7 +98,8 @@ class FullPage(object):
     def prt(self):              # Print the buffer
         #print >>sys.stderr, 'FullPage.prt...'
         for x in self.lines:
-            print x.rstrip()
+            # --TEST-- for codepage barf
+            print str(x.rstrip())
 
     def clear(self):            # Re-initialize the buffer
         #print >>sys.stderr, 'FullPage.clear...'
