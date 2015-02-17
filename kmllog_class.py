@@ -73,7 +73,7 @@ class KmlLog(object):
         config.optionxform = str
         config.read('.config_salad.cfg')
         # get oufile name
-        self.outfile = config.get('Files', 'outfile_kml')
+        self.outfile = self.fpath + config.get('Files', 'outfile_kml')
         # set HOME_CALL
         self.home_call = config.get('Props', 'home_call')
 

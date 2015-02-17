@@ -129,7 +129,8 @@ SOURCE can be:
 2) file name containing list of calls
 3) blank => will try and read cqrlog DB
 
-User must have a QRZ.com XML access account. (http://online.qrz.com)
+User must have a QRZ.com XML access account (http://online.qrz.com)
+and a logon to hamqth.com.
 """
         sys.exit()
     elif x[0] == '-t':

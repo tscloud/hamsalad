@@ -47,7 +47,7 @@ class GMapsLog(KmlLog):
         config.optionxform = str
         config.read('.config_salad.cfg')
         # get oufile name
-        self.outfile = config.get('Files', 'outfile_gmaps')
+        self.outfile = fpath_name + config.get('Files', 'outfile_gmaps')
         # set HOME_CALL
         self.home_call = config.get('Props', 'home_call')
 
