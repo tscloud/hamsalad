@@ -96,6 +96,7 @@ class Callservice(object):
         """
         # need a local so old values are not preserved across calls
         l_login_url = None
+        fr = None
 
         for login_trial in range(Callservice.MAX_LOGIN_TRIAL):
             try:

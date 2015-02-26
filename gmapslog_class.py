@@ -28,11 +28,11 @@ class GMapsLog(KmlLog):
     """
     This class makes HTML files for google maps
     """
-    def __init__(self, fpath_name=None, c=None, q=None):
+    def __init__(self, agent, fpath_name=None, c=None, q=None):
         """
         This inits things
         """
-        super(GMapsLog, self).__init__(fpath_name, c, q)
+        super(GMapsLog, self).__init__(agent, fpath_name, c, q)
         self.mymap = None
         self.path = []
         self.home_lat = None
@@ -86,6 +86,6 @@ class GMapsLog(KmlLog):
             self.mymap.addpoint(p_lat, p_lon, color='#FF0000', title=p_name)
             self.mymap.addpath([(self.home_lat, self.home_lon), (p_lat, p_lon)], "#00FF00")
 
-        url = 'mymap.draw.html'
-        self.mymap.draw(url)
+        # url = 'mymap.draw.html'
+        self.mymap.draw(self.outfile)
         # webbrowser.open_new_tab(url)

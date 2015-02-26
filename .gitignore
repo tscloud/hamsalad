@@ -60,6 +60,7 @@ target/
 # callsign service init files
 .hamsalad*
 
-# KML and ADIF files
+# KML and ADIF and HTML files
 *.kml
 *.adif
+*.htm*

@@ -96,6 +96,7 @@ input_file = ''
 cqrl_db = None
 adif_out_path = FPATH+'output/'
 label_type = None
+kml_type = None
 
 for x in myopts:            # Check user-supplied options.
     if x[0] == '-h':
@@ -303,7 +304,7 @@ elif output_type == 'k':
         #     sys.exit()
     # also need a KmlLog obj
     if kml_type == 'google':
-        kmllog = GMapsLog(FPATH, cqrl_db, qrz)
+        kmllog = GMapsLog(AGENT, FPATH, cqrl_db, qrz)
     else:
         kmllog = KmlLog(AGENT, FPATH, cqrl_db, qrz)
 
